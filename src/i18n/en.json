@@ -8,15 +8,15 @@
       "title": "Mauricio's Curriculum Vitae - Software Engineer",
       "description": "My Curriculum Vitae in English"
     }
-  },  
+  },
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Software Engineer",    
+    "label": "Frontend Web Developer",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
     "phone": "4424652866",
-    "url": "https://mauricioyair.dev",
-    "summary": "Frontend web developer with five years of experience. My current focus is Astro.build, React.js and WordPress. I stand out for my organized approach and curiosity to understand the inner workings of technologies. I am committed to continuous learning and excited to contribute my expertise to the development of innovative projects.",
+    "url": "https://mauricioyair.github.io/portafolio/en/",
+    "summary": "Software Engineer with experience in WordPress website development, specializing in the creation and maintenance of websites, landing pages, and interactive components. I am interested in continuing my development in modern technologies such as React.js.",
     "others": {
       "name": "Hi, I'm Mauricio ✌🏻",
       "ocupation_1": "Engineer",
@@ -36,8 +36,8 @@
       {
         "network": "LinkedIn",
         "username": "maauricioyair",
-        "url": "https://mx.linkedin.com/in/maauricioyair"
-      },  
+        "url": "https://www.linkedin.com/in/mauricioyair/"
+      },
       {
         "network": "GitHub",
         "username": "maauricioyair",
@@ -45,45 +45,127 @@
       }
     ]
   },
-  "work": [    
+  "work": [
+    {
+      "name": "Bloom Digitals",
+      "position": "No-Code Web Developer",
+      "badges": [
+        "Home Office"
+      ],
+      "url": "https://bloomdigitals.com/",
+      "startDate": "2024-07-26",
+      "endDate": "2026-06-30",
+      "summary": [
+        "Pixel Perfect website development using Oxygen Builder, Elementor, and Webflow",
+        "Developing HTML templates for email using Stripo",
+        "Maintenance, updating and ongoing support of websites in production environments",
+        "Development of a distributor locator in Marketo using HTML, CSS, JavaScript and JSON, integrating dynamic filters and an interactive map"
+      ],
+      "achievements": "I collaborated with the Team Leader on the implementation of technical improvements and the resolution of incidents for various projects",
+      "highlights": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "WordPress",
+        "WebFlow"
+      ],
+      "tools": [
+        "Figma",
+        "Visual Studio Code",
+        "LocalWP",
+        "Oxygen Builder",
+        "Elementor",
+        "WP Backery",
+        "Google Meet",
+        "Slack",
+        "Wrike",
+        "Passbolt",
+        "Stripo",
+        "Mailchimp",
+        "Hubspot",
+        "Zoho",
+        "Notion",
+        "Google Drive",
+        "Google Excel"
+      ]
+    },
     {
       "name": "IW Innovation Workshop",
-      "position": "WordPress Developer",  
-      "badges": ["Hybrid"],
+      "position": "WordPress Developer",
+      "badges": [
+        "Hybrid"
+      ],
       "url": "https://iw.digital",
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "Implementation of multilingual websites and online stores in WooCommerce and Shopify",        
-        "Creation of themes, plug-ins, post types and custom fields to meet website requirements",
-        "Training and support for content creators and administrators to use WordPress effectively",
-        "Deployment in shared server environments",
-        "Landing page development and e-mail structure",
-        "E-commerce payment gateway integrations",
-        "Ongoing maintenance and support of production sites",        
-        "Using GIT for version control"                     
+        "Implementation of multilingual sites",
+        "Setting up and customizing templates in Shopify",
+        "Administration and maintenance of multisite environments",
+        "Developing custom themes from scratch using the WordPress API and implementing dynamic queries with WP_Query",
+        "Plugin customization, CPT and ACF",
+        "Training and support for administrators and content creators for efficient use",
+        "Development of responsive landing pages and layout of email templates",
+        "Maintenance, updates, and ongoing support of websites in production.",
+        "Source code management using Git for version control and collaborative work"
       ],
-      "achievements": "I contributed in several projects improving the user experience and resolving issues in legacy developments. In addition, documenting the developments made.",        
-      "highlights": ["HTML5", "CSS3", "JavaScript ES6", "jQuery 3.7.1", "Bootstrap 4.3.1", "PHP 7.4>", "MySQL 8.0", "WordPress 5.0>", "Git 2.24.2", "Shopify"],
-      "tools": ["Figma", "Sketch", "Visual Studio Code", "Xampp", "LocalWP", "Wamp Server", "WHM", "Google Meet", "Slack", "Basecamp", "Powerpoint", "Word"]
+      "achievements": "I contributed to various projects, improving user experience and resolving issues in legacy systems. I also documented the work done.",
+      "highlights": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP",
+        "MySQL",
+        "WordPress",
+        "Git",
+        "Liquid"
+      ],
+      "tools": [
+        "Figma",
+        "Sketch",
+        "Visual Studio Code",
+        "Xampp",
+        "LocalWP",
+        "Wamp Server",
+        "WHM",
+        "Google Meet",
+        "Slack",
+        "Basecamp",
+        "Powerpoint",
+        "Word"
+      ]
     },
     {
       "name": "Mercadology",
-      "position": "Web Developer",      
-      "badges": ["On-site"],
+      "position": "Professional Internship - Web Developer",
+      "badges": [
+        "On-site"
+      ],
       "url": "https://mercadology.mx",
       "startDate": "2019-03-01",
       "endDate": "2020-06-01",
       "summary": [
-        "Website development in WordPress CMS",
-        "Use of visual layout builders, Elementor, WP Backery, Gutenberg",
-        "Optimization and configuration of WordPress to improve performance, security and SEO",
-        "Traffic monitoring in Google Analytics 3 and Google Search Console"
+        "Traffic monitoring in Google Analytics 3 and Google Search Console",
+        "Optimization and configuration to improve performance, security, and SEO",
+        "Website development using visual builders, Elementor, WP Backyard, Gutenberg, and Divi"
       ],
-      "achievements": "I worked as a team to increase organic positioning and performance.", 
-      "highlights": ["WordPress"],
-      "tools": ["Adobe XD", "Sublime Text", "Atom", "Xampp", "Slack", "Asana", "GA3", "GSC"]
-    }    
+      "achievements": "I worked as a team to increase organic positioning and performance.",
+      "highlights": [
+        "WordPress"
+      ],
+      "tools": [
+        "Adobe XD",
+        "Sublime Text",
+        "Atom",
+        "Xampp",
+        "Slack",
+        "Asana",
+        "GA3",
+        "GSC"
+      ]
+    }
   ],
   "volunteer": [
     {
@@ -107,7 +189,15 @@
       "startDate": "2016-01-02",
       "endDate": "2019-08-01",
       "score": "10",
-      "highlights": ["Java", "Python", "Codeigniter", "Android Studio", "Ionic", "MySQL", "Ubuntu"]      
+      "highlights": [
+        "Java",
+        "MySQL",
+        "PHP",
+        "Android Studio",
+        "Ionic",
+        "Linux",
+        "Python"
+      ]
     }
   ],
   "awards": [
@@ -152,11 +242,6 @@
       "keywords": []
     },
     {
-      "name": "TypeScript",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Tailwind",
       "level": "",
       "keywords": []
@@ -170,12 +255,13 @@
       "name": "React",
       "level": "",
       "keywords": []
-    },              
+    },
     {
       "name": "Figma",
       "level": "",
       "keywords": [
-        "UI", "UX"
+        "UI",
+        "UX"
       ]
     },
     {
@@ -192,29 +278,29 @@
       "name": "MySQL",
       "level": "",
       "keywords": []
-    },    
+    },
     {
       "name": "Git",
       "level": "",
       "keywords": []
-    }    
+    }
   ],
   "softskills": [
     {
-      "name": "Attention to detail"     
-    },    
+      "name": "Attention to detail"
+    },
     {
       "name": "Self-taught"
-    },    
+    },
     {
       "name": "Teamwork"
-    },    
+    },
     {
       "name": "Troubleshooting"
-    },    
+    },
     {
       "name": "Continuous learning"
-    }    
+    }
   ],
   "languages": [
     {
@@ -228,64 +314,75 @@
   ],
   "interests": [
     {
-      "name": "Videogames",
-      "keywords": ["Halo"]
+      "name": "Play video games",
+      "keywords": [
+        "Shooters"
+      ]
     }
   ],
   "references": [
     {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "",
+      "reference": ""
     }
   ],
-  "projects": [       
+  "projects": [
     {
       "name": "To-do",
       "status": "Personal",
       "isActive": true,
       "description": " App to add tasks, mark them as completed and delete them",
-      "highlights": [""],
+      "highlights": [
+        ""
+      ],
       "url": "https://mauricioyair.github.io/To-do/",
       "github": "",
       "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1720549250/edxh4qvy8nvx8ar0iwtu.png",
-      "skills": ["React", "CSS", "JavaScript"]
-    },   
+      "skills": [
+        "React",
+        "CSS",
+        "JavaScript"
+      ]
+    },
     {
       "name": "Raesal",
       "status": "Freelance",
       "isActive": true,
       "description": "Emergency power plant services page",
-      "highlights": [""],
+      "highlights": [
+        ""
+      ],
       "url": "https://raesal.com.mx",
       "github": "",
       "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1720548968/wip3iugwgmc0edc3ndk2.png",
-      "skills": ["Astro", "React", "Tailwind"]
-    },   
+      "skills": [
+        "Astro",
+        "React",
+        "Tailwind"
+      ]
+    },
     {
       "name": "GTI Trailers",
       "status": "Freelance",
       "isActive": true,
       "description": "Automotive and Transportation Industry Services Page",
-      "highlights": [""],
+      "highlights": [
+        ""
+      ],
       "url": "http://gtitrailers.com",
       "github": "",
       "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/f_auto,q_auto/bnyzj6mdl5wew4ad9nmh",
-      "skills": ["WordPress", "Elementor", "PHP", "MySQL"]
-    },   
-    {
-      "name": "TPX",
-      "status": "Freelance",
-      "isActive": true,
-      "description": "Hacking and Cybersecurity Solutions Page",
-      "highlights": [""],
-      "url": "https://tpx.mx",
-      "github": "",
-      "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1720549025/ukcnezdkh0sz8ba4ue36.png",
-      "skills": ["WordPress", "Tailwind", "HTML"]
+      "skills": [
+        "WordPress",
+        "Elementor",
+        "PHP",
+        "MySQL"
+      ]
     }
   ],
   "about": {
-    "summary": "<p>A little bit about how I started working professionally: my adventure began with WordPress. Although working with this CMS requires knowledge of PHP and MySQL, it allowed me to work with backend and frontend code. Although I am passionate about the frontend, I do not rule out the fact of continuing to prepare myself in the backend and mobile. During this time, I have actively participated in several projects that <span style='display:inline-flex;' class='markUnderline'>I do not add here for confidentiality</span>, playing an important role in the creation of custom themes, plugins and optimization of websites, until their successful launch to production.</p><p>My professional background has allowed me to collaborate closely with multidisciplinary teams, including designers, developers, clients and project managers. This collaborative approach has enriched my experience, giving me a deep understanding of teamwork dynamics and the importance of effective communication to achieve outstanding results.</p><p class='markBracket'>In addition, I have a passion for continuous learning and exploring new technologies. In my free time, I enjoy spending hours studying and experimenting with the latest tools and frameworks such as React.js, MongoDB, Node.js and currently Astro.build. This curiosity and commitment to constant improvement has allowed me to keep up to date with new trends.</p>"
+    "summary_academic": "<p>Before I started my professional career, it all began in college. That’s where I wrote my first “Hello World” program in Java using Eclipse. It might sound like just another line of code, but I remember the thrill of seeing a program I’d created myself (even though it gave me a headache, haha) make me feel proud. From that moment on, I developed small applications—such as a calculator, among others—first in Eclipse and later in NetBeans.</p><p>As my studies progressed, I discovered a whole new world: databases. I learned to work with MySQL from the command line—without a graphical interface—by writing SQL queries and understanding how information could be stored, related, and retrieved. Shortly after, PHP, HTML, and CSS came along, and that’s when everything started to make sense: connecting an application to a database to build dynamic systems. Those interfaces that gradually came to life are what helped me discover that I enjoyed building user experiences and that web development was a path I wanted to continue exploring… and one that, to this day, I still enjoy.<p>College also allowed me to experiment with other technologies. I developed small mobile apps using Android Studio, first by creating interfaces entirely in XML and later by using the visual editor (drag-and-drop). I also had the opportunity to work with Ionic to learn about hybrid mobile development.</p><p>Not everything revolved around web development. In some courses, I explored Python and took my first steps in data analysis using the Pandas library. Although it was just an introduction at the time, that knowledge has since sparked my interest and is part of the path I’m following toward a career in <span class='markHighlight'>Data Engineering.</span></p><p>I also learned how to work with Arduino. Building small circuits on a breadboard, controlling LEDs, and seeing how the software interacted with the hardware gave me a completely different way of understanding programming and allowed me to appreciate the versatility of this profession.</p><p>Last but not least, I took my first steps in Linux with the Ubuntu distribution and learned how to use the terminal with basic commands. Although these were simple tasks, that experience helped me become familiar with an environment that remains essential in software development today.</p><p>Looking back, I realize that none of those technologies were a waste of time. Each one taught me a different way to solve problems and broadened my perspective on software development. Some have become part of my daily routine, while others simply piqued my curiosity, but all of them helped lay the foundation on which I continue to build my career.</p>",
+    "summary_professional": "<p>It all started with <span class='markUnderline'>WordPress web development.</span> I began by working with visual builders, and over time, I moved on to customizing themes and plugins using code, optimizing websites, and deploying them to production.</p><p>This experience allowed me to participate in projects for various clients and collaborate closely with senior developers, designers, and project managers. As a result, I strengthened skills such as communication, teamwork, and the ability to analyze and solve problems both during development and once projects were in production. In addition, I have had the opportunity to work both remotely and in person, adapting to different ways of collaborating.</p><p class='markBracket'>I enjoy web development and remain open to new projects in this field. At the same time, in my free time, I’ve started to delve deeper into data engineering, a field that has piqued my interest and in which I hope to continue growing professionally without neglecting my experience as a developer.</p>"
   },
   "labels": {
     "label_description_projects": "These are some of the projects I have worked on as a freelancer and personal projects.",
@@ -294,21 +391,23 @@
     "label_education": "Education",
     "label_language": "Languages",
     "label_soft_skills": "Soft Skills",
-    "label_certificacion": "Certificates"
+    "label_certificacion": "Certificates",
+    "label_academic": "During my academic formation",
+    "label_professional": "During my professional career"
   },
   "links": {
     "button_hero_copy_email": "Copy e-mail",
     "button_hero_copied_email": "Email copied",
     "button_link_cv": "See CV"
   },
-  "header" :{
+  "header": {
     "about": "About me",
-    "projects": "Projects",    
+    "projects": "Projects",
     "tools": "Stack",
     "blog": "Blog"
   },
   "footer": {
-    "copyright": "Made with"    
+    "copyright": "Made with"
   },
   "page_error": {
     "title": "Page not found",
