@@ -11,12 +11,12 @@
   },
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Frontend Web Developer",
+    "label": "Python | AI | Automation | Web Development",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
-    "phone": "4424652866",
-    "url": "https://mauricioyair.github.io/portafolio/en/",
-    "summary": "Software Engineer with experience in WordPress website development, specializing in the creation and maintenance of websites, landing pages, and interactive components. I am interested in continuing my development in modern technologies such as React.js.",
+    "phone": "+524424652866",
+    "url": "https://mauricioyair.github.io/portafolio/",
+    "summary": "Software engineer with experience in web development, currently transitioning to Python development. I have hands-on experience developing projects. I am looking to join an agile development team to add value and continue growing technically.",
     "others": {
       "name": "Hi, I'm Mauricio ✌🏻",
       "ocupation_1": "Engineer",
@@ -48,7 +48,7 @@
   "work": [
     {
       "name": "Bloom Digitals",
-      "position": "No-Code Web Developer",
+      "position": "WordPress and Webflow Developer",
       "badges": [
         "Home Office"
       ],
@@ -56,12 +56,13 @@
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "Pixel Perfect website development using Oxygen Builder, Elementor, and Webflow",
-        "Developing HTML templates for email using Stripo",
-        "Maintenance, updating and ongoing support of websites in production environments",
-        "Development of a distributor locator in Marketo using HTML, CSS, JavaScript and JSON, integrating dynamic filters and an interactive map"
+        "Pixel-Perfect Website Development Using Oxygen Builder, Elementor, and Webflow",
+        "Developing HTML Email Templates with Stripo",
+        "Maintenance, updates, and ongoing support for websites in production environments",
+        "Development of a dealer locator with integrated filters and an interactive map using Marketo, HTML, CSS, JavaScript, and JSON",
+        "Agile Kanban Methodology"
       ],
-      "achievements": "I collaborated with the Team Leader on the implementation of technical improvements and the resolution of incidents for various projects",
+      "achievements": "I worked with the team leader to implement technical improvements and resolve issues for various projects",
       "highlights": [
         "HTML5",
         "CSS3",
@@ -309,7 +310,7 @@
     },
     {
       "language": "English",
-      "fluency": "Basic technician"
+      "fluency": "A2"
     }
   ],
   "interests": [
@@ -381,8 +382,7 @@
     }
   ],
   "about": {
-    "summary_academic": "<p>Before I started my professional career, it all began in college. That’s where I wrote my first “Hello World” program in Java using Eclipse. It might sound like just another line of code, but I remember the thrill of seeing a program I’d created myself (even though it gave me a headache, haha) make me feel proud. From that moment on, I developed small applications—such as a calculator, among others—first in Eclipse and later in NetBeans.</p><p>As my studies progressed, I discovered a whole new world: databases. I learned to work with MySQL from the command line—without a graphical interface—by writing SQL queries and understanding how information could be stored, related, and retrieved. Shortly after, PHP, HTML, and CSS came along, and that’s when everything started to make sense: connecting an application to a database to build dynamic systems. Those interfaces that gradually came to life are what helped me discover that I enjoyed building user experiences and that web development was a path I wanted to continue exploring… and one that, to this day, I still enjoy.<p>College also allowed me to experiment with other technologies. I developed small mobile apps using Android Studio, first by creating interfaces entirely in XML and later by using the visual editor (drag-and-drop). I also had the opportunity to work with Ionic to learn about hybrid mobile development.</p><p>Not everything revolved around web development. In some courses, I explored Python and took my first steps in data analysis using the Pandas library. Although it was just an introduction at the time, that knowledge has since sparked my interest and is part of the path I’m following toward a career in <span class='markHighlight'>Data Engineering.</span></p><p>I also learned how to work with Arduino. Building small circuits on a breadboard, controlling LEDs, and seeing how the software interacted with the hardware gave me a completely different way of understanding programming and allowed me to appreciate the versatility of this profession.</p><p>Last but not least, I took my first steps in Linux with the Ubuntu distribution and learned how to use the terminal with basic commands. Although these were simple tasks, that experience helped me become familiar with an environment that remains essential in software development today.</p><p>Looking back, I realize that none of those technologies were a waste of time. Each one taught me a different way to solve problems and broadened my perspective on software development. Some have become part of my daily routine, while others simply piqued my curiosity, but all of them helped lay the foundation on which I continue to build my career.</p>",
-    "summary_professional": "<p>It all started with <span class='markUnderline'>WordPress web development.</span> I began by working with visual builders, and over time, I moved on to customizing themes and plugins using code, optimizing websites, and deploying them to production.</p><p>This experience allowed me to participate in projects for various clients and collaborate closely with senior developers, designers, and project managers. As a result, I strengthened skills such as communication, teamwork, and the ability to analyze and solve problems both during development and once projects were in production. In addition, I have had the opportunity to work both remotely and in person, adapting to different ways of collaborating.</p><p class='markBracket'>I enjoy web development and remain open to new projects in this field. At the same time, in my free time, I’ve started to delve deeper into data engineering, a field that has piqued my interest and in which I hope to continue growing professionally without neglecting my experience as a developer.</p>"
+    "summary": "<p>It all started in college. That’s where I wrote my first “Hello World” program in Java using Eclipse. It may seem like just another line of code, but I clearly remember the thrill of seeing a program I’d created actually work. That small moment sparked something that, over time, would become an important part of my professional life. As I progressed through my degree, I discovered another world that would change the way I understood development: databases.</p><p>I learned to use MySQL from the command line, writing SQL queries and understanding how data could be stored, related, and retrieved. Soon after, I discovered PHP, HTML, and CSS, and that’s when many pieces began to fall into place. For the first time, I could connect an application to a database and turn it into a dynamic system. User interfaces began to breathe life into what I was building, and I discovered something that remains important to me to this day: I still enjoy creating solutions that not only work but also provide a great user experience. That’s how web development began to become the path I wanted to continue exploring. <p>During my training, I also had the opportunity to experiment with different areas of software development. I learned how to use Android Studio and Ionic to develop native and hybrid mobile apps.</p><p>I also took my first steps with Python and data analysis using Pandas. At the time, it was mainly an introduction, but it ended up sparking a curiosity that has grown over the years. I’m currently delving deeper into Python and the development of solutions related to artificial intelligence, seeking to understand how these technologies can be used to solve real-world problems and optimize processes.</p><p>Another experience I remember particularly well was working with Arduino. Building small circuits on a breadboard, controlling LEDs, and seeing how the software could interact directly with the hardware was a completely different way of understanding programming. It allowed me to discover another facet of this profession and appreciate its versatility even more.</p><p>Finally, I took my first steps with Linux. Although I started out with simple tasks and basic commands, that experience allowed me to become familiar with an environment that would eventually become an essential tool in software development. </p><p>After completing my studies, I had the opportunity to begin my professional career in web development using WordPress. At first, I worked mainly with visual builders, but over time I moved on to customizing themes and plugins using code. I also participated in optimizing live websites, as well as in their ongoing maintenance and support.</p><p>This experience allowed me to work on projects for various clients and collaborate closely with senior developers, designers, and project managers. Beyond technical knowledge, it was an important phase for developing skills that I consider essential in any software project: communication, teamwork, the ability to analyze problems, and the responsibility to ensure that solutions continue to function properly once they go into production.</p><p>I have also had the opportunity to work both remotely and in person, adapting to different work dynamics and ways of collaborating. I continue to particularly enjoy web development and am open to participating in projects in this field. At the same time, I have begun to delve deeper into Python and artificial intelligence, particularly how these technologies can be used to automate processes, improve implementations, and create more efficient solutions.</p><p>My goal is to continue growing without setting aside the experience I’ve built as a web developer, but rather to use it as a foundation for exploring new technologies and finding new ways to solve problems. In the end, that’s what I’ve enjoyed most about software development ever since that first “Hello World”: the opportunity to constantly learn, turn an idea into something functional, and keep discovering new ways to build.</p>"
   },
   "labels": {
     "label_description_projects": "These are some of the projects I have worked on as a freelancer and personal projects.",
@@ -391,9 +391,7 @@
     "label_education": "Education",
     "label_language": "Languages",
     "label_soft_skills": "Soft Skills",
-    "label_certificacion": "Certificates",
-    "label_academic": "During my academic formation",
-    "label_professional": "During my professional career"
+    "label_certificacion": "Certificates"
   },
   "links": {
     "button_hero_copy_email": "Copy e-mail",

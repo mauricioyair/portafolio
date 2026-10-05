@@ -15,7 +15,6 @@
     "@fontsource-variable/onest": "^5.0.2",
     "astro": "^4.0.7",
     "ninja-keys": "^1.2.2",
-    "rough-notation": "^0.5.1",
     "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
