@@ -56,7 +56,9 @@ const i18n = getI18N({ currentLocale })
                     achievements && (                      
                     <div class="my-2">
                       <div class="flex items-center gap-3">
-                        <Confetti/>
+                        <figure class="no-print">                          
+                          <Confetti/>
+                        </figure>
                         <div class="flex-1">                          
                           <p class="text-sm"> {achievements}</p>
                         </div>                        
@@ -65,7 +67,9 @@ const i18n = getI18N({ currentLocale })
                     )
                   } 
                   <div class="flex items-center gap-3">
-                    <Stack />
+                    <figure class="no-print">
+                      <Stack />
+                    </figure>
                     <div class="flex-1">
                       <ul class="inline-flex items-center gap-2 flex-wrap">  
                       {
