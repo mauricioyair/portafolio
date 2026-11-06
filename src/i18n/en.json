@@ -16,7 +16,7 @@
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.github.io/portafolio/",
-    "summary": "Software engineer with experience in web development, currently transitioning to Python development and AI. I have hands-on experience developing projects. I am looking to join an agile development team to add value and continue growing technically.",
+    "summary": "Software developer with 6 years of experience in web development (PHP, JavaScript, MySQL, WordPress) and API integrations, currently transitioning to Python and AI solutions. I am looking to join an agile team as a Python Developer to continue growing in backend development and applied AI.",
     "others": {
       "name": "Hi, I'm Mauricio ✌🏻",
       "ocupation_1": "Engineer",
@@ -56,11 +56,9 @@
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "Pixel-Perfect Website Development Using Oxygen Builder, Elementor, and Webflow",
-        "Developing HTML Email Templates with Stripo",
-        "Maintenance, updates, and ongoing support for websites in production environments",
-        "Development of a dealer locator with integrated filters and an interactive map using Marketo, HTML, CSS, JavaScript, and JSON",
-        "Agile Kanban Methodology"
+        "I developed responsive websites that faithfully reproduced the design using Oxygen Builder, Elementor, and WebFlow for more than 20 projects.",
+        "I built a dealer locator with dynamic filters and an interactive map (JavaScript, JSON, HTML, and CSS) integrated into Marketo.",
+        ""
       ],
       "achievements": "I worked with the team leader to implement technical improvements and resolve issues for various projects",
       "highlights": [
@@ -76,7 +74,7 @@
         "LocalWP",
         "Oxygen Builder",
         "Elementor",
-        "WP Backery",
+        "WPBakery",
         "Google Meet",
         "Slack",
         "Wrike",
@@ -100,17 +98,13 @@
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "Implementation of multilingual sites",
-        "Setting up and customizing templates in Shopify",
-        "Administration and maintenance of multisite environments",
-        "Developing custom themes from scratch using the WordPress API and implementing dynamic queries with WP_Query",
-        "Plugin customization, CPT and ACF",
-        "Training and support for administrators and content creators for efficient use",
-        "Development of responsive landing pages and layout of email templates",
-        "Maintenance, updates, and ongoing support of websites in production.",
-        "Source code management using Git for version control and collaborative work"
+        "I trained administrators and content creators on how to use their sites.",
+        "I customized plugins, Custom Post Types (CPTs), and ACF fields; I managed Multisite environments and multilingual sites.",
+        "I set up and customized stores on Shopify (Liquid) and developed landing pages and email templates.",
+        "I managed the code using Git and documented the development process to make it easier for other developers to take over.",
+        "I developed custom WordPress themes from scratch, using the WordPress API and WP_Query for dynamic queries."
       ],
-      "achievements": "I contributed to various projects, improving user experience and resolving issues in legacy systems. I also documented the work done.",
+      "achievements": "I contributed to various projects by improving the user experience and resolving issues in legacy systems. I also documented the work that was done.",
       "highlights": [
         "HTML5",
         "CSS3",
@@ -145,12 +139,11 @@
         "On-site"
       ],
       "url": "https://mercadology.mx",
-      "startDate": "2019-03-01",
-      "endDate": "2020-06-01",
+      "startDate": "2019-03-02",
+      "endDate": "2020-06-02",
       "summary": [
-        "Traffic monitoring in Google Analytics 3 and Google Search Console",
-        "Optimization and configuration to improve performance, security, and SEO",
-        "Website development using visual builders, Elementor, WP Backyard, Gutenberg, and Divi"
+        "I tracked traffic using Google Analytics and Search Console to improve organic search rankings",
+        "I optimized performance, security, and SEO for WordPress sites built with Elementor, WPBakery, Gutenberg, and Divi."
       ],
       "achievements": "I worked as a team to increase organic positioning and performance.",
       "highlights": [
@@ -187,8 +180,8 @@
       "url": "https://upsrj.edu.mx",
       "area": "Software Engineering",
       "studyType": "University",
-      "startDate": "2016-01-02",
-      "endDate": "2019-08-01",
+      "startDate": "2016-01-10",
+      "endDate": "2019-08-25",
       "score": "10",
       "highlights": [
         "Java",
@@ -228,12 +221,12 @@
   ],
   "hardskills": [
     {
-      "name": "HTML",
+      "name": "HTML5",
       "level": "",
       "keywords": []
     },
     {
-      "name": "CSS",
+      "name": "CSS3",
       "level": "",
       "keywords": []
     },
@@ -249,11 +242,6 @@
     },
     {
       "name": "Bootstrap",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React",
       "level": "",
       "keywords": []
     },
@@ -282,6 +270,16 @@
     },
     {
       "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Github",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
       "level": "",
       "keywords": []
     }
@@ -391,6 +389,7 @@
     "label_education": "Education",
     "label_language": "Languages",
     "label_soft_skills": "Soft Skills",
+    "label_hard_skills": "Hard Skills",
     "label_certificacion": "Certificates"
   },
   "links": {

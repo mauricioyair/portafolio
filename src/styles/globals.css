@@ -4,107 +4,148 @@
 @tailwind utilities;
 
 :root {
-	--theme-light: theme(colors.theme-light);
-	--theme-dark: theme(colors.theme-dark);
-	
-	--accent: theme(colors.accent);
-	--accent-light: theme(colors.accent-light);
-	--accent-dark: theme(colors.accent-dark);	
+  --theme-light: theme(colors.theme-light);
+  --theme-dark: theme(colors.theme-dark);
 
-	--gradient: theme(colors.gradient);
+  --accent: theme(colors.accent);
+  --accent-light: theme(colors.accent-light);
+  --accent-dark: theme(colors.accent-dark);
+
+  --gradient: theme(colors.gradient);
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
-  font-family: 'DM Sans Variable', system-ui, sans-serif;
+  font-family: "DM Sans Variable", system-ui, sans-serif;
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Onest Variable', system-ui, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Onest Variable", system-ui, sans-serif;
 }
 
-
 @media (prefers-color-scheme: light) {
-	body {
-		background-color: var(--theme-light);
-		color: var(--theme-black);
-	}
+  body {
+    background-color: var(--theme-light);
+    color: var(--theme-black);
+  }
 
-	.hero {
-		background-image: linear-gradient(#f5f5f5 2px, transparent 2px),
-			linear-gradient(90deg, #f5f5f5 2px, transparent 2px),
-			linear-gradient(#f5f5f5 1px, transparent 1px),
-			linear-gradient(90deg, #f5f5f5 1px, #fdfdfc 1px);
-		background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-		background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-	}
+  .hero {
+    background-image:
+      linear-gradient(#f5f5f5 2px, transparent 2px),
+      linear-gradient(90deg, #f5f5f5 2px, transparent 2px),
+      linear-gradient(#f5f5f5 1px, transparent 1px),
+      linear-gradient(90deg, #f5f5f5 1px, #fdfdfc 1px);
+    background-size:
+      50px 50px,
+      50px 50px,
+      10px 10px,
+      10px 10px;
+    background-position:
+      -2px -2px,
+      -2px -2px,
+      -1px -1px,
+      -1px -1px;
+  }
 
-	.hero::after {
-		position: absolute;
-		content: '';            
-		width: 100%;
-		flex: none;
-		inset: 0;
-		overflow: hidden;
-		position: absolute;
-		z-index: -1;
-		background: linear-gradient(0deg,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)
-	}
+  .hero::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    flex: none;
+    inset: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-	body {
-		background-color: var(--theme-dark);
-		color: var(--theme-light);
-	}
+  body {
+    background-color: var(--theme-dark);
+    color: var(--theme-light);
+  }
 
-	.hero {      
-		background-image: linear-gradient(#1c1c1c 2px, transparent 2px),
-			linear-gradient(90deg, #1c1c1c 2px, transparent 2px),
-			linear-gradient(#1c1c1c 1px, transparent 1px),
-			linear-gradient(90deg, #1c1c1c 1px, #161616 1px);
-		background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-		background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;      
-	}
+  .hero {
+    background-image:
+      linear-gradient(#1c1c1c 2px, transparent 2px),
+      linear-gradient(90deg, #1c1c1c 2px, transparent 2px),
+      linear-gradient(#1c1c1c 1px, transparent 1px),
+      linear-gradient(90deg, #1c1c1c 1px, #161616 1px);
+    background-size:
+      50px 50px,
+      50px 50px,
+      10px 10px,
+      10px 10px;
+    background-position:
+      -2px -2px,
+      -2px -2px,
+      -1px -1px,
+      -1px -1px;
+  }
 
-	.hero::after {
-		position: absolute;
-		content: '';      
-		width: 100%;
-		flex: none;
-		inset: 0;
-		overflow: hidden;
-		position: absolute;
-		z-index: -1;
-		background: linear-gradient(0deg,rgba(22,22,22) 0%,rgba(22,22,22,0) 100%)
-	}
+  .hero::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    flex: none;
+    inset: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(
+      0deg,
+      rgba(22, 22, 22) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+  }
 }
 
-
 .print {
-	display: none !important;
+  display: none !important;
 }
 
 @media print {
-	.no-print {
-		display: none !important;
-	}
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    font-family: Arial, sans-serif;
+  }
 
-	.print {
-		display: block !important;
-	}
+  .no-print {
+    display: none !important;
+  }
 
-	astro-dev-toolbar {
-		display: none !important;
-	}	
+  .print {
+    display: block !important;
+  }
+
+  astro-dev-toolbar {
+    display: none !important;
+  }
 }

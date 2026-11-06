@@ -15,9 +15,15 @@ const i18n = getI18N({ currentLocale })
     {
       i18n.work.map(
         ({ name, startDate, endDate, position, summary, highlights, url, badges, achievements }) => {          
-          const startYear = new Date(startDate).getFullYear()
-          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startYear} - ${endYear}`
+          const startFormatDate = new Date(startDate)
+          const endFormatDate = new Date(endDate)
+
+          const startmonth = startFormatDate.toLocaleString(currentLocale, { month: "2-digit" })
+          const startYear = String(startFormatDate.getFullYear()).slice(-2)
+
+          const endMonth = endFormatDate.toLocaleString(currentLocale, { month: "2-digit" })
+          const endYear = endDate != null ? String(endFormatDate.getFullYear()).slice(-2) : "Actual"
+          const years = `${startmonth}/${startYear} - ${endMonth}/${endYear}`
         
           return (
             <li>
@@ -52,7 +58,7 @@ const i18n = getI18N({ currentLocale })
                       summary.map(summ => <li>{summ}</li>)
                     }
                   </ul>
-                  {
+                  {/* {
                     achievements && (                      
                     <div class="my-2">
                       <div class="flex items-center gap-3">
@@ -81,7 +87,7 @@ const i18n = getI18N({ currentLocale })
                       }
                       </ul> 
                     </div>
-                  </div>                                      
+                  </div> */}                                      
                 </footer>
               </article>
             </li>

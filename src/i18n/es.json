@@ -16,7 +16,7 @@
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.github.io/portafolio/",
-    "summary": "Ingeniero en Software con experiencia en desarrollo web, actualmente en transicion en desarrollo Python y IA. Con experiencia práctica desarrollando proyectos. Busco integrarme a un equipo de desarrollo ágil para aportar valor y continuar creciendo técnicamente.",
+    "summary": "Desarrollador de software con 6 años de experiencia en desarrollo web (PHP, JavaScript, MySQL, WordPress) e integraciones con APIs, en transición hacia Python y soluciones con IA. Busco incorporarme a un equipo ágil como Desarrollador Python. para seguir creciendo en backend e IA aplicada.",
     "others": {
       "name": "Hola, soy Mauricio ✌🏻",
       "ocupation_1": "Ingeniero en",
@@ -48,7 +48,7 @@
   "work": [
     {
       "name": "Bloom Digitals",
-      "position": "Desarrollador WordPress y Webflow",
+      "position": "Desarrollador WordPress y WebFlow",
       "badges": [
         "Home Office"
       ],
@@ -56,11 +56,9 @@
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "Desarrollo de sitios web Pixel Perfect en Oxygen Builder, Elementor y Webflow",
-        "Desarrollo de plantillas HTML para correo electrónico con Stripo",
-        "Mantenimiento, actualización y soporte continuo de sitios en ambientes de producción",
-        "Desarrollo de un localizador de distribuidores integracion de filtros y mapa interactivo en Marketo, HTML, CSS, JavaScript y JSON",
-        "Metodología Agile Kanban"
+        "Desarrollé sitios web responsivos fieles al diseño con Oxygen Builder, Elementor y WebFlow para más de 20 proyectos.",
+        "Construí un localizador de distribuidores con filtros dinámicos y mapa interactivo (JavaScript, JSON, HTML y CSS) integrado en Marketo.",
+        "I created HTML email templates using Stripo and provided ongoing support for live sites, resolving issues alongside the technical lead using the Kanban methodology."
       ],
       "achievements": "Colaboré con el Team Leader en la implementación de mejoras técnicas y resolución de incidencias para distintos proyectos",
       "highlights": [
@@ -76,7 +74,7 @@
         "LocalWP",
         "Oxygen Builder",
         "Elementor",
-        "WP Backery",
+        "WPBakery",
         "Google Meet",
         "Slack",
         "Wrike",
@@ -94,23 +92,19 @@
       "name": "IW Innovation Workshop",
       "position": "Desarrollador WordPress",
       "badges": [
-        "Hibrido"
+        "Híbrido"
       ],
       "url": "https://iw.digital",
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "Implementación de sitios multilenguaje",
-        "Configuración y personalización de plantillas en Shopify",
-        "Administración y mantenimiento de entornos Multisite",
-        "Desarrollo de temas personalizados desde cero utilizando la API de WordPress e implementación de consultas dinámicas con WP_Query",
-        "Personalización de plugins, CPT y ACF",
-        "Capacitación y soporte a administradores y creadores de contenido para el uso correcto",
-        "Desarrollo de Landing Pages responsivas y maquetación de plantillas de correo electrónico",
-        "Mantenimiento, actualización y soporte continuo de sitios en ambientes de producción",
-        "Gestión del código fuente mediante Git para control de versiones y trabajo colaborativo"
+        "Capacité a administradores y creadores de contenido en el uso de sus sitios.",
+        "Personalicé plugins, CPT y campos ACF; administré entornos Multisite y sitios multilenguaje.",
+        "Configuré y personalicé tiendas en Shopify (Liquid) y desarrollé landing pages y plantillas de correo.",
+        "Gestioné el código con Git y documenté los desarrollos para facilitar el relevo de otros desarrolladores.",
+        "Desarrollé temas de WordPress a medida desde cero, usando la API de WordPress y WP_Query para consultas dinámicas."
       ],
-      "achievements": "Contribuí en diversos proyectos mejorando la experiencia de usuario y resolviendo inconvenientes en desarrollos heredados. Además, de documentar los desarrollos realizados.",
+      "achievements": "Contribuí en diversos proyectos mejorando la experiencia de usuario y resolviendo inconvenientes en desarrollos heredados. Además de documentar los desarrollos realizados.",
       "highlights": [
         "HTML5",
         "CSS3",
@@ -140,17 +134,16 @@
     },
     {
       "name": "Mercadology",
-      "position": "Practicas Profesionales - Desarrollador Web",
+      "position": "Prácticas Profesionales - Desarrollador Web",
       "badges": [
         "Presencial"
       ],
       "url": "https://mercadology.mx",
-      "startDate": "2019-03-01",
-      "endDate": "2020-06-01",
+      "startDate": "2019-03-02",
+      "endDate": "2020-06-02",
       "summary": [
-        "Monitorización de tráfico en Google Analytics 3 y Google Search Console",
-        "Optimización y configuración para mejorar el rendimiento, seguridad y SEO",
-        "Desarrollo de sitios con constructores visuales, Elementor, WP Backery, Gutenberg y Divi"
+        "Monitoreé tráfico con Google Analytics y Search Console para mejorar el posicionamiento orgánico",
+        "Optimicé rendimiento, seguridad y SEO en sitios WordPress construidos con Elementor, WPBakery, Gutenberg y Divi."
       ],
       "achievements": "Trabajé en equipo para incrementar el posicionamiento orgánico y performance.",
       "highlights": [
@@ -187,8 +180,8 @@
       "url": "https://upsrj.edu.mx",
       "area": "Ingeniería en Software",
       "studyType": "Universidad",
-      "startDate": "2016-01-02",
-      "endDate": "2019-08-01",
+      "startDate": "2016-01-10",
+      "endDate": "2019-08-25",
       "score": "10",
       "highlights": [
         "Java",
@@ -228,12 +221,12 @@
   ],
   "hardskills": [
     {
-      "name": "HTML",
+      "name": "HTML5",
       "level": "",
       "keywords": []
     },
     {
-      "name": "CSS",
+      "name": "CSS3",
       "level": "",
       "keywords": []
     },
@@ -251,12 +244,7 @@
       "name": "Bootstrap",
       "level": "",
       "keywords": []
-    },
-    {
-      "name": "React",
-      "level": "",
-      "keywords": []
-    },
+    },  
     {
       "name": "Figma",
       "level": "",
@@ -282,6 +270,16 @@
     },
     {
       "name": "Git",
+      "level": "",
+      "keywords": []
+    },    
+    {
+      "name": "Github",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
       "level": "",
       "keywords": []
     }
@@ -391,6 +389,7 @@
     "label_education": "Educación",
     "label_language": "Idiomas",
     "label_soft_skills": "Habilidades blandas",
+    "label_hard_skills": "Habilidades técnicas",
     "label_certificacion": "Certificados"
   },
   "links": {

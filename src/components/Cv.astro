@@ -6,7 +6,7 @@ import HeroCV from '@/components/HeroCV.astro';
 import Experience from '@/components/Experience.astro';
 import Education from '@/components/Education.astro';
 import Resume from '@/components/Resume.astro';
-import SoftSkills from '@/components/SoftSkills.astro';
+import HardSkills from '@/components/HardSkills.astro';
 import Languages from '@/components/Languages.astro';
 import Certificates from '@/components/Certificates.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
@@ -25,17 +25,11 @@ const i18n = getI18N({ currentLocale })
 		<HeroCV />
 		<Resume />
 		<Experience />
-		<Education />		
-		<SoftSkills />
+		<Education />				
+		<HardSkills />
 		<Languages />
     <Certificates />
 	</main>
 	<KeyboardManager />
 
 </Layout>
-
-<style>
-	body {
-		font-family: sans-serif;				
-	}
-</style>

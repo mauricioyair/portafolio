@@ -39,7 +39,7 @@ const SKILLS_assets: Record<string, any> = {
 }
 ---
 <section class="mb-7">
-  <h2 class="mb-2 font-bold text-2xl">Hard Skills</h2>
+  <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_hard_skills}</h2>
   <ul>
     {
       i18n.hardskills.map(({ name }) => {  
@@ -48,7 +48,7 @@ const SKILLS_assets: Record<string, any> = {
 
         return (
           <li class="truncate border-1 border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
-            {Icon && <Icon />} <span>{name}</span>
+            {/* {Icon && <Icon />} */} <span>{name}</span>
           </li>
         )
       })
