@@ -1,31 +1,28 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 // Astro integrations
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from "@tailwindcss/vite";
 import partytown from "@astrojs/partytown";
-
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mauricioyair.github.io',
-  base: '/portafolio',  
+  site: "https://mauricioyair.github.io",
+  base: "/portafolio",
   integrations: [
-    tailwind(
-      {
-        applyBaseStyles: false,
-      }
-    ),
     partytown({
       config: {
-        forward: ["dataLayer.push"]
-      }
-    })
+        forward: ["dataLayer.push"],
+      },
+    }),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es', 'en'],
+    defaultLocale: "es",
+    locales: ["es", "en"],
     routing: {
-      prefixDefaultLocale: false
-    }
+      prefixDefaultLocale: false,
+    },
   },
 });
