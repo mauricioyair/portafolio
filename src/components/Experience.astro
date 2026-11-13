@@ -18,38 +18,39 @@ const i18n = getI18N({ currentLocale })
           const startFormatDate = new Date(startDate)
           const endFormatDate = new Date(endDate)
 
-          const startmonth = startFormatDate.toLocaleString(currentLocale, { month: "2-digit" })
-          const startYear = String(startFormatDate.getFullYear()).slice(-2)
+          const startmonth = startFormatDate.toLocaleString(currentLocale, { month: "long" })
+          const startYear = String(startFormatDate.getFullYear())
 
-          const endMonth = endFormatDate.toLocaleString(currentLocale, { month: "2-digit" })
-          const endYear = endDate != null ? String(endFormatDate.getFullYear()).slice(-2) : "Actual"
-          const years = `${startmonth}/${startYear} - ${endMonth}/${endYear}`
+          const endMonth = endFormatDate.toLocaleString(currentLocale, { month: "long" })
+          const endYear = endDate != null ? String(endFormatDate.getFullYear()) : "Actual"
+          const years = `${startmonth} ${startYear} - ${endMonth} ${endYear}`
         
           return (
             <li>
               <article>
-                <header class="mb-2">
-                  <div>
+                <header class="mb-2">                  
                     <h3 class="font-semibold text-lg flex flex-wrap gap-x-2">
                       {position}
-                      {badges.map(badge => <span class="border-1 border-r border-t border-l border-b border-solid bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra dark:bg-none rounded-md text-xs font-bold">{badge}</span>)}
+                      <span>|</span>
+                      {
+                        url ?                                           
+                        <a 
+                          href={url} 
+                          title={`Ver ${name}`} 
+                          target="_blank" 
+                          class="hover:underline"
+                          >
+                          {name}
+                        </a>                                            
+                      : {name}
+                      }                    
                     </h3>
-                    {
-                      url ?
-                      <h4 class="font-normal">                      
-                      <a 
-                        href={url} 
-                        title={`Ver ${name}`} 
-                        target="_blank" 
-                        class="hover:underline"
-                        >
-                        {name}
-                      </a>                                            
-                    </h4> : <h4 class="font-normal">{name}</h4>
-                    }
-                  </div>
 
-                  <time class="text-right">{years}</time>
+                    <div class="text-gray-500 text-[0.85rem]">
+                      {badges.map(badge => <span>{badge}</span>)}
+                      <span class="!p-0 leading-[0]">|</span>
+                      <time class="text-right capitalize">{years}</time>
+                    </div>                
                 </header>
 
                 <footer>
@@ -100,26 +101,11 @@ const i18n = getI18N({ currentLocale })
 
 <style>     
   
-  article h3 span {
+  article header h3 span {
     align-items: center;            
     display: flex;
-    font-size: 0.7rem;       
-    padding: 0.2rem 0.6rem;
+    font-size: 0.8rem;    
   }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;    
-  }
-
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
-  }
-
-  
 
   /* footer ul li {
     margin-left: 24px;    

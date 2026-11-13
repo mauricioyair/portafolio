@@ -16,31 +16,42 @@ const i18n = getI18N({ currentLocale })
         const startFormatDate = new Date(startDate)
         const endFormatDate = new Date(endDate)
 
-        const startmonth = startFormatDate.toLocaleString(currentLocale, { month: "2-digit" })
-        const startYear = String(startFormatDate.getFullYear()).slice(-2)
+        const startmonth = startFormatDate.toLocaleString(currentLocale, { month: "long" })
+        const startYear = String(startFormatDate.getFullYear())
 
-        const endMonth = endFormatDate.toLocaleString(currentLocale, { month: "2-digit" })
-        const endYear = endDate != null ? String(endFormatDate.getFullYear()).slice(-2) : "Actual"
-        const years = `${startmonth}/${startYear} - ${endMonth}/${endYear}`        
+        const endMonth = endFormatDate.toLocaleString(currentLocale, { month: "long" })
+        const endYear = endDate != null ? String(endFormatDate.getFullYear()) : "Actual"
+        const years = `${startmonth} ${startYear} - ${endMonth} ${endYear}`        
 
-        return (
+        return (          
           <li>
-            <article>
-              <header class="mb-1">                
-                <h3 class="font-semibold text-lg flex flex-wrap gap-x-2">{area}</h3>
-                <time class="text-right">{years}</time>
-              </header>
+            <article>            
+              <header class="mb-2">                  
+                    <h3 class="font-semibold text-lg flex flex-wrap gap-x-2">
+                      {area}
+                      <span>|</span>
+                      {
+                        url ?                                           
+                        <a 
+                          href={url} 
+                          title={`Ver ${institution}`} 
+                          target="_blank" 
+                          class="hover:underline"
+                          >
+                          {institution}
+                        </a>                                            
+                      : {institution}
+                      }                    
+                    </h3>
+                    
+                    <div class="text-gray-500 text-[0.85rem]">
+                      <time class="text-right capitalize">{years}</time>
+                    </div>
+
+                </header>
               <footer>
-                <h4 class="font-normal my-2">
-                  <a 
-                    href={url} 
-                    title={`Ver ${institution}`} 
-                    target="_blank"
-                    class="hover:underline"
-                    >                        
-                      {institution}
-                    </a>
-                </h4>                  
+                
+              
                   {/* <div class="flex items-center gap-3">
                     <figure class="no-print">
                       <Book />
@@ -67,17 +78,22 @@ const i18n = getI18N({ currentLocale })
 </section>
 
 
-<style>  
-  header {
+<style> 
+
+  article header h3 span {
+    align-items: center;            
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;    
+    font-size: 0.8rem;    
   }
 
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
+  /* footer ul li {
+    margin-left: 24px;    
+    line-height: 1.5;    
+    text-wrap: pretty;
+  } */
+
+  footer span {
+    margin: 0.5rem 0rem;    
   }
     
 </style>
