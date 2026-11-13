@@ -11,12 +11,12 @@
   },
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Python | AI | Web Development",
+    "label": "Python | Web Development",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.github.io/portafolio/",
-    "summary": "Software developer with 6 years of experience in web development (PHP, JavaScript, MySQL, WordPress) and API integrations, currently transitioning to Python and AI solutions. I am looking to join an agile team as a Python Developer to continue growing in backend development and applied AI.",
+    "summary": "Software Engineer with over six years of experience in web development, maintaining live websites, and collaborating with technical teams. I am looking to shift my career toward data engineering and contribute my skills in programming, version control, and working with relational databases. I am currently developing my skills in Python and SQL. I am interested in a junior data role.",
     "others": {
       "name": "Hi, I'm Mauricio ✌🏻",
       "ocupation_1": "Engineer",
@@ -56,9 +56,9 @@
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "I developed responsive websites that faithfully reproduced the design using Oxygen Builder, Elementor, and WebFlow for more than 20 projects.",
-        "I built a dealer locator with dynamic filters and an interactive map (JavaScript, JSON, HTML, and CSS) integrated into Marketo.",
-        "I created HTML email templates using Stripo and provided ongoing support for live sites, resolving issues alongside the technical lead using the Kanban methodology."
+        "I built responsive websites for more than 20 projects using Oxygen Builder, Elementor, and Webflow, based on approved designs.",
+        "I developed a dealer locator with dynamic filters and an interactive map using JavaScript, JSON, HTML, and CSS, integrated with Marketo.",
+        "I created HTML email templates using Stripo and resolved issues with live sites alongside the technical lead, as part of a Kanban workflow."
       ],
       "achievements": "I worked with the team leader to implement technical improvements and resolve issues for various projects",
       "highlights": [
@@ -98,11 +98,11 @@
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "I trained administrators and content creators on how to use their sites.",
+        "I trained administrators and content creators to manage their sites.",
         "I customized plugins, Custom Post Types (CPTs), and ACF fields; I managed Multisite environments and multilingual sites.",
         "I set up and customized stores on Shopify (Liquid) and developed landing pages and email templates.",
-        "I managed the code using Git and documented the development process to make it easier for other developers to take over.",
-        "I developed custom WordPress themes from scratch, using the WordPress API and WP_Query for dynamic queries."
+        "I managed code using Git and documented development work to facilitate maintenance and handoff.",
+        "I developed custom WordPress themes and dynamic queries using the WordPress API and WP_Query."
       ],
       "achievements": "I contributed to various projects by improving the user experience and resolving issues in legacy systems. I also documented the work that was done.",
       "highlights": [
@@ -142,8 +142,8 @@
       "startDate": "2019-03-02",
       "endDate": "2020-06-02",
       "summary": [
-        "I tracked traffic using Google Analytics and Search Console to improve organic search rankings",
-        "I optimized performance, security, and SEO for WordPress sites built with Elementor, WPBakery, Gutenberg, and Divi."
+        "I tracked traffic and organic search rankings using Google Analytics and Search Console.",
+        "I optimized the performance, security, and SEO of WordPress sites built with Elementor, WPBakery, Gutenberg, and Divi."
       ],
       "achievements": "I worked as a team to increase organic positioning and performance.",
       "highlights": [
@@ -228,23 +228,18 @@
     {
       "name": "CSS3",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Tailwind", 
+        "Bootstrap"]
     },
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Tailwind",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bootstrap",
-      "level": "",
-      "keywords": []
-    },
+      "keywords": [
+        "React", 
+        "jQuery"      
+      ]
+    },   
     {
       "name": "Figma",
       "level": "",
@@ -264,20 +259,17 @@
       "keywords": []
     },
     {
-      "name": "MySQL",
+      "name": "SQL",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "MySQL", 
+        "PostgreSQL"]
     },
     {
       "name": "Git",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Github",
-      "level": "",
-      "keywords": []
-    },
+      "keywords": ["GitHub"]
+    },    
     {
       "name": "Python",
       "level": "",

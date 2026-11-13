@@ -11,12 +11,12 @@
   },
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Python | IA | Desarrollo Web",
+    "label": "Python | Desarrollo Web",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.github.io/portafolio/",
-    "summary": "Desarrollador de software con 6 años de experiencia en desarrollo web (PHP, JavaScript, MySQL, WordPress) e integraciones con APIs, en transición hacia Python y soluciones con IA. Busco incorporarme a un equipo ágil como Desarrollador Python. para seguir creciendo en backend e IA aplicada.",
+    "summary": "Ingeniero en Software con más de seis años de experiencia en desarrollo web, mantenimiento de sitios en producción y colaboración con equipos técnicos. Busco orientar mi carrera hacia la ingeniería de datos y aportar mis bases de programación, control de versiones y trabajo con bases de datos relacionales. Actualmente desarrollo mis habilidades en Python y SQL. Interesado en una posición junior de datos.",
     "others": {
       "name": "Hola, soy Mauricio ✌🏻",
       "ocupation_1": "Ingeniero en",
@@ -50,15 +50,15 @@
       "name": "Bloom Digitals",
       "position": "Desarrollador WordPress y WebFlow",
       "badges": [
-        "Home Office"
+        "Remoto"
       ],
       "url": "https://bloomdigitals.com/",
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "Desarrollé sitios web responsivos fieles al diseño con Oxygen Builder, Elementor y WebFlow para más de 20 proyectos.",
-        "Construí un localizador de distribuidores con filtros dinámicos y mapa interactivo (JavaScript, JSON, HTML y CSS) integrado en Marketo.",
-        "Creé plantillas de correo HTML con Stripo y di soporte continuo a sitios en producción, resolviendo incidencias junto al líder técnico bajo la metodología Kanban."
+        "Implementé sitios web responsivos para más de 20 proyectos con Oxygen Builder, Elementor y Webflow, a partir de diseños aprobados.",
+        "Desarrollé un localizador de distribuidores con filtros dinámicos y mapa interactivo usando JavaScript, JSON, HTML y CSS, integrado con Marketo.",
+        "Creé plantillas de correo en HTML con Stripo y atendí incidencias de sitios en producción junto con el líder técnico, dentro de un flujo de trabajo Kanban."
       ],
       "achievements": "Colaboré con el Team Leader en la implementación de mejoras técnicas y resolución de incidencias para distintos proyectos",
       "highlights": [
@@ -98,11 +98,11 @@
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "Capacité a administradores y creadores de contenido en el uso de sus sitios.",
+        "Capacité a administradores y creadores de contenido para operar sus sitios.",
         "Personalicé plugins, CPT y campos ACF; administré entornos Multisite y sitios multilenguaje.",
         "Configuré y personalicé tiendas en Shopify (Liquid) y desarrollé landing pages y plantillas de correo.",
-        "Gestioné el código con Git y documenté los desarrollos para facilitar el relevo de otros desarrolladores.",
-        "Desarrollé temas de WordPress a medida desde cero, usando la API de WordPress y WP_Query para consultas dinámicas."
+        "Gestioné código con Git y documenté desarrollos para facilitar su mantenimiento y transferencia.",
+        "Desarrollé temas de WordPress a medida y consultas dinámicas con la API de WordPress y WP_Query."
       ],
       "achievements": "Contribuí en diversos proyectos mejorando la experiencia de usuario y resolviendo inconvenientes en desarrollos heredados. Además de documentar los desarrollos realizados.",
       "highlights": [
@@ -142,8 +142,8 @@
       "startDate": "2019-03-02",
       "endDate": "2020-06-02",
       "summary": [
-        "Monitoreé tráfico con Google Analytics y Search Console para mejorar el posicionamiento orgánico",
-        "Optimicé rendimiento, seguridad y SEO en sitios WordPress construidos con Elementor, WPBakery, Gutenberg y Divi."
+        "Monitoreé tráfico y posicionamiento orgánico con Google Analytics y Search Console.",
+        "Optimicé el rendimiento, la seguridad y el SEO de sitios WordPress desarrollados con Elementor, WPBakery, Gutenberg y Divi."
       ],
       "achievements": "Trabajé en equipo para incrementar el posicionamiento orgánico y performance.",
       "highlights": [
@@ -228,23 +228,18 @@
     {
       "name": "CSS3",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Tailwind", 
+        "Bootstrap"]
     },
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Tailwind",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bootstrap",
-      "level": "",
-      "keywords": []
-    },  
+      "keywords": [
+        "React", 
+        "jQuery"      
+      ]
+    },   
     {
       "name": "Figma",
       "level": "",
@@ -264,20 +259,17 @@
       "keywords": []
     },
     {
-      "name": "MySQL",
+      "name": "SQL",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "MySQL", 
+        "PostgreSQL"]
     },
     {
       "name": "Git",
       "level": "",
-      "keywords": []
+      "keywords": ["GitHub"]
     },    
-    {
-      "name": "Github",
-      "level": "",
-      "keywords": []
-    },
     {
       "name": "Python",
       "level": "",
