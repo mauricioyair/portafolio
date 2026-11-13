@@ -7,6 +7,14 @@
     "cvpage": {
       "title": "Curriculum Vitae de Mauricio - Ingeniero en Software",
       "description": "Mí Curriculum Vitae en Español"
+    },
+    "title_link": {      
+      "normal": "Ir a:",
+      "mail": "Envíame un correo electrónico a:",
+      "phone": "Contáctame por teléfono a:",
+      "network": "Visita mi perfil de",
+      "cv": "Visita mi currículum vitae",
+      "certificate": "Ver mis certificados en:"      
     }
   },
   "basics": {
@@ -387,7 +395,7 @@
   "links": {
     "button_hero_copy_email": "Copiar correo",
     "button_hero_copied_email": "Copiado",
-    "button_link_cv": "Ver CV"
+    "button_link_cv": "Currículum"
   },
   "header": {
     "about": "Sobre mí",

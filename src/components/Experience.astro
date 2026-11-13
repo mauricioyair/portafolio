@@ -36,9 +36,10 @@ const i18n = getI18N({ currentLocale })
                         url ?                                           
                         <a 
                           href={url} 
-                          title={`Ver ${name}`} 
+                          title={`${i18n.seo.title_link.normal} ${url}`} 
                           target="_blank" 
                           class="hover:underline"
+                          rel="nofollow noreferrer noopener"
                           >
                           {name}
                         </a>                                            

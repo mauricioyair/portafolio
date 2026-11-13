@@ -7,6 +7,14 @@
     "cvpage": {
       "title": "Mauricio's Curriculum Vitae - Software Engineer",
       "description": "My Curriculum Vitae in English"
+    },
+    "title_link": {
+      "normal": "Go to:",
+      "mail": "Send me an email at:",
+      "phone": "Please call me at:",
+      "network": "Visit my profile on",
+      "cv": "View my resume",
+      "certificate": "View my certificates at:"
     }
   },
   "basics": {
@@ -387,7 +395,7 @@
   "links": {
     "button_hero_copy_email": "Copy e-mail",
     "button_hero_copied_email": "Email copied",
-    "button_link_cv": "See CV"
+    "button_link_cv": "Resume"
   },
   "header": {
     "about": "About me",

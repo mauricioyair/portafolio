@@ -47,8 +47,8 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
         {
           url && (
             <a
-              href={url}
-              title={`Visita mí portafolio de proyectos: ${url}`}
+              href={url}              
+              title={`${i18n.seo.title_link.normal} ${url}`}
               target="_self"
               rel="noopener noreferrer"
               class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
@@ -60,8 +60,8 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
         {
           email && (
             <a
-              href={`mailto:${email}`}
-              title={`Enviame un correo electrónico al correo: ${email}`}
+              href={`mailto:${email}`}              
+              title={`${i18n.seo.title_link.mail} ${email}`}
               target="_blank"
               rel="noopener noreferrer"
               class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
@@ -73,8 +73,8 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
         {
           phone && (
             <a
-              href={`tel:${phone}`}
-              title={`Contactame por teléfono al número: ${phone}`}
+              href={`tel:${phone}`}              
+              title={`${i18n.seo.title_link.phone} ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
               class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
@@ -90,7 +90,7 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
             return (
               <a 
                 href={url} 
-                title={`Visita mí perfil de ${network}: ${url}`} 
+                title={`${i18n.seo.title_link.network} ${network}: ${url}`} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"

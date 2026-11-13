@@ -13,7 +13,7 @@ const i18n = getI18N({ currentLocale })
       i18n.certificates.map(({ name, url }) => {       
         return (
           <li class="no-print truncate border-1 border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
-            <a href={url} target="_blank" title={`Ver los certificados en ${name}`}>
+            <a href={url} target="_blank" title={`${i18n.seo.title_link.certificate} ${url}`}>
               <span>
               {name} 
               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M11 17H7q-2.075 0-3.537-1.463T2 12q0-2.075 1.463-3.537T7 7h4v2H7q-1.25 0-2.125.875T4 12q0 1.25.875 2.125T7 15h4zm-3-4v-2h8v2zm5 4v-2h4q1.25 0 2.125-.875T20 12q0-1.25-.875-2.125T17 9h-4V7h4q2.075 0 3.538 1.463T22 12q0 2.075-1.463 3.538T17 17z"/></svg>
