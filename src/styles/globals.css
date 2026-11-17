@@ -1,7 +1,6 @@
 /* El archivo base.css inyectado por defecto de la integración */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../../tailwind.config.cjs";
 
 :root {
   --theme-light: theme(colors.theme-light);
@@ -12,6 +11,16 @@
   --accent-dark: theme(colors.accent-dark);
 
   --gradient: theme(colors.gradient);
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: #e5e7eb;
+  }
 }
 
 html {

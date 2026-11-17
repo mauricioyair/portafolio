@@ -7,17 +7,23 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "check": "astro check",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.0.4",
     "@fontsource-variable/dm-sans": "^5.0.3",
     "@fontsource-variable/onest": "^5.0.2",
-    "astro": "^4.0.7",
-    "ninja-keys": "^1.2.2",
-    "tailwindcss": "^3.4.0"
+    "astro": "^7.4.12",
+    "ninja-keys": "^1.2.2"
   },
   "devDependencies": {
-    "@astrojs/partytown": "^2.1.1"
+    "@astrojs/check": "^0.9.12",
+    "@astrojs/partytown": "^2.1.9",
+    "@tailwindcss/vite": "^4.3.5",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "vite": "^8.3.6"
   }
 }
