@@ -13,6 +13,16 @@
   --gradient: theme(colors.gradient);
 }
 
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: #e5e7eb;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
