@@ -1,4 +1,3 @@
-
 {
   "plugins": ["prettier-plugin-astro"],
   "overrides": [
@@ -9,7 +8,7 @@
       }
     }
   ],
-  "semi": true,
+  "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
   "useTabs": false,

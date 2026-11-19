@@ -1,8 +1,8 @@
 ---
-import { getI18N } from '../i18n/';
+import { getI18N } from '../i18n/'
 
-const { currentLocale } = Astro;
-const i18n = getI18N({ currentLocale });
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale })
 ---
 
 <header class="flex justify-center items-center mx-auto py-5 fixed top-0 w-full z-50">
@@ -38,78 +38,78 @@ const i18n = getI18N({ currentLocale });
 </header>
 
 <script>
-  const navigation = document.querySelector('#main-navigation');
+  const navigation = document.querySelector('#main-navigation')
 
   if (navigation) {
-    const links = navigation.querySelectorAll<HTMLAnchorElement>('.nav-link');
+    const links = navigation.querySelectorAll<HTMLAnchorElement>('.nav-link')
 
     // Actualizar enlace activo
     const setActiveLink = (sectionId: string) => {
       links.forEach((link) => {
-        const isActive = link.dataset.section === sectionId;
+        const isActive = link.dataset.section === sectionId
 
-        link.classList.toggle('bg-color-white-link', isActive);
-        link.classList.toggle('dark:bg-color-black-link', isActive);
+        link.classList.toggle('bg-color-white-link', isActive)
+        link.classList.toggle('dark:bg-color-black-link', isActive)
 
         if (isActive) {
-          link.setAttribute('aria-current', 'location');
+          link.setAttribute('aria-current', 'location')
         } else {
-          link.removeAttribute('aria-current');
+          link.removeAttribute('aria-current')
         }
-      });
-    };
+      })
+    }
 
     // Detectar clic en los enlaces
     links.forEach((link) => {
       link.addEventListener('click', () => {
-        const sectionId = link.dataset.section;
+        const sectionId = link.dataset.section
 
         if (sectionId) {
-          setActiveLink(sectionId);
+          setActiveLink(sectionId)
         }
-      });
-    });
+      })
+    })
 
     // Obtener las secciones
     const sections = Array.from(links)
       .map((link) => {
-        const id = link.dataset.section;
-        return id ? document.getElementById(id) : null;
+        const id = link.dataset.section
+        return id ? document.getElementById(id) : null
       })
-      .filter((section): section is HTMLElement => section !== null);
+      .filter((section): section is HTMLElement => section !== null)
 
     // Detectar sección visible mediante scroll
     const observer = new IntersectionObserver(
       (entries) => {
         const visibleSections = entries
           .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
 
         if (visibleSections.length > 0) {
-          setActiveLink(visibleSections[0].target.id);
+          setActiveLink(visibleSections[0].target.id)
         }
       },
       {
         rootMargin: '-20% 0px -65% 0px',
         threshold: 0,
       }
-    );
+    )
 
-    sections.forEach((section) => observer.observe(section));
+    sections.forEach((section) => observer.observe(section))
 
     // Detectar sección inicial
-    const initialHash = window.location.hash.slice(1);
+    const initialHash = window.location.hash.slice(1)
 
     if (initialHash && sections.some((section) => section.id === initialHash)) {
-      setActiveLink(initialHash);
+      setActiveLink(initialHash)
     } else if (sections.length > 0) {
       const currentSection = sections.find((section) => {
-        const rect = section.getBoundingClientRect();
-        return rect.top <= window.innerHeight * 0.35 && rect.bottom > 0;
-      });
+        const rect = section.getBoundingClientRect()
+        return rect.top <= window.innerHeight * 0.35 && rect.bottom > 0
+      })
 
       if (currentSection) {
-        setActiveLink(currentSection.id);
+        setActiveLink(currentSection.id)
       }
     }
   }

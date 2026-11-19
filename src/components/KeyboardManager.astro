@@ -1,33 +1,37 @@
 ---
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-{currentLocale === 'es' ? 
-  <footer class="no-print border-t bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra">
-    Pulsa <kbd>K</kbd> para abrir la paleta de comandos.
-  </footer>
+{currentLocale === 'es' ? (
+  <>
+    <footer class="no-print border-t bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra">
+      Pulsa <kbd>K</kbd> para abrir la paleta de comandos.
+    </footer>
 
-  <ninja-keys placeholder="Buscar comando" hideBreadcrumbs openHotkey="K">
-    <div slot="footer"></div>
-  </ninja-keys>
-: 
-  <footer class="no-print border-t bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra">
-    Press <kbd>K</kbd> to open commands.
-  </footer>
+    <ninja-keys placeholder="Buscar comando" hideBreadcrumbs openHotkey="K">
+      <div slot="footer"></div>
+    </ninja-keys>
+  </>
+) : (
+  <>
+    <footer class="no-print border-t bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra">
+      Press <kbd>K</kbd> to open commands.
+    </footer>
 
-  <ninja-keys placeholder="Search command" hideBreadcrumbs openHotkey="K">
-    <div slot="footer"></div>
-  </ninja-keys>
-}
+    <ninja-keys placeholder="Search command" hideBreadcrumbs openHotkey="K">
+      <div slot="footer"></div>
+    </ninja-keys>
+  </>
+)}
 
-<script>  
-  import "ninja-keys"
+<script>
+  import 'ninja-keys'
 
-  const ninja = document.querySelector("ninja-keys")
+  const ninja = document.querySelector('ninja-keys')
 
   if (ninja != null) {
     ninja.data = [
@@ -37,7 +41,7 @@ const i18n = getI18N({ currentLocale })
         hotkey: 'ctrl+P',
         icon: `<svg style="margin-right: 8px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" /><path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" /><path d="M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" /></svg>`,
         section: 'Acciones',
-        handler: () => {          
+        handler: () => {
           window.print()
         },
       },
@@ -48,12 +52,12 @@ const i18n = getI18N({ currentLocale })
         icon: '<svg style="margin-right: 8px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M10 12h4v4h-4z" /></svg>',
         section: 'Acciones',
         handler: () => {
-          const originLocation = window.location.origin 
+          const originLocation = window.location.origin
           window.location.href = `${originLocation}`
-        }
-      }  
-    ];
-  }   
+        },
+      },
+    ]
+  }
 </script>
 
 <style>
@@ -73,7 +77,7 @@ const i18n = getI18N({ currentLocale })
   }
 
   footer {
-    display: block;        
+    display: block;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -116,7 +120,6 @@ const i18n = getI18N({ currentLocale })
   }
 
   ninja-keys {
-    --ninja-font-size:  16px;      
-  }  
-
+    --ninja-font-size: 16px;
+  }
 </style>

@@ -1,27 +1,27 @@
 ---
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 
 //Icons
-import Node from "@assets/Node.astro"
-import Git from "@assets/Git.astro"
-import MySQL from "@assets/MySQL.astro"
-import HTML from "@assets/HTML.astro"
-import JavaScript from "@assets/JavaScript.astro"
-import CSS from "@assets/CSS.astro"
-import Tailwind from "@assets/Tailwind.astro"
-import React from "@assets/React.astro"
-import WordPress from "@assets/WordPress.astro"
-import PHP from "@assets/PHP.astro"
-import Bootstrap from "@assets/Bootstrap.astro"
-import Figma from "@assets/Figma.astro"
-import Mongo from "@assets/Mongo.astro"
-import TypeScript from "@assets/TypeScript.astro"
+import Node from '@assets/Node.astro'
+import Git from '@assets/Git.astro'
+import MySQL from '@assets/MySQL.astro'
+import HTML from '@assets/HTML.astro'
+import JavaScript from '@assets/JavaScript.astro'
+import CSS from '@assets/CSS.astro'
+import Tailwind from '@assets/Tailwind.astro'
+import React from '@assets/React.astro'
+import WordPress from '@assets/WordPress.astro'
+import PHP from '@assets/PHP.astro'
+import Bootstrap from '@assets/Bootstrap.astro'
+import Figma from '@assets/Figma.astro'
+import Mongo from '@assets/Mongo.astro'
+import TypeScript from '@assets/TypeScript.astro'
 
-const SKILLS_assets: Record<string, any> = {  
+const SKILLS_assets: Record<string, any> = {
   Node,
   Git,
   MySQL,
@@ -29,30 +29,29 @@ const SKILLS_assets: Record<string, any> = {
   JavaScript,
   CSS,
   Tailwind,
-  React,      
+  React,
   WordPress,
   PHP,
   Bootstrap,
-  Figma,  
+  Figma,
   Mongo,
-  TypeScript
+  TypeScript,
 }
 ---
+
 <section class="mb-7">
   <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_hard_skills}</h2>
   <ul>
-    {
-      i18n.hardskills.map(({ name }) => {  
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_assets[iconName]
+    {i18n.hardskills.map(({ name }) => {
+      const iconName = name === 'Next.js' ? 'Next' : name
+      const Icon = SKILLS_assets[iconName]
 
-        return (
-          <li class="truncate border-1 border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
-            {/* {Icon && <Icon />} */} <span>{name}</span>
-          </li>
-        )
-      })
-    }
+      return (
+        <li class="truncate border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
+          {/* {Icon && <Icon />} */} <span>{name}</span>
+        </li>
+      )
+    })}
   </ul>
 </section>
 
@@ -67,8 +66,8 @@ const SKILLS_assets: Record<string, any> = {
     display: flex;
     gap: 4px;
     border-radius: 6px;
-    align-items: center;    
-    font-size: 0.8rem;        
+    align-items: center;
+    font-size: 0.8rem;
     padding: 0.2rem 0.6rem;
   }
 </style>

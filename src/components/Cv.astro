@@ -1,35 +1,31 @@
 ---
-import Layout from '@/layouts/Layout.astro';
+import Layout from '@/layouts/Layout.astro'
 
-
-import HeroCV from '@/components/HeroCV.astro';
-import Experience from '@/components/Experience.astro';
-import Education from '@/components/Education.astro';
-import Resume from '@/components/Resume.astro';
-import HardSkills from '@/components/HardSkills.astro';
-import Languages from '@/components/Languages.astro';
-import Certificates from '@/components/Certificates.astro';
-import KeyboardManager from '@/components/KeyboardManager.astro';
+import HeroCV from '@/components/HeroCV.astro'
+import Experience from '@/components/Experience.astro'
+import Education from '@/components/Education.astro'
+import Resume from '@/components/Resume.astro'
+import HardSkills from '@/components/HardSkills.astro'
+import Languages from '@/components/Languages.astro'
+import Certificates from '@/components/Certificates.astro'
+import KeyboardManager from '@/components/KeyboardManager.astro'
 
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
-
 ---
 
 <Layout title={i18n.seo.cvpage.title} description={i18n.seo.cvpage.description}>
-
-	<main class="m-auto w-full p-4 md:p-12 md:w-[800px] max-w-cal">
-		<HeroCV />
-		<Resume />
-		<Experience />
-		<Education />				
-		<HardSkills />
-		<Languages />
+  <main class="m-auto w-full p-4 md:p-12 md:w-200 max-w-cal">
+    <HeroCV />
+    <Resume />
+    <Experience />
+    <Education />
+    <HardSkills />
+    <Languages />
     <Certificates />
-	</main>
-	<KeyboardManager />
-
+  </main>
+  <KeyboardManager />
 </Layout>

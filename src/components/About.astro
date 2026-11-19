@@ -1,20 +1,17 @@
 ---
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<section id="sobre-mi" data-section="sobre-mi" class="scroll-m-20">  
-  <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-8">     
-    {i18n.header.about}
-  </h2>
-  
-  <article class="flex flex-col items-center justify-center gap-8 md:flex-row"> 
-    <div class="[&>p]:mb-4 text-pretty"> 
-      <p set:html={i18n.about.summary}></p>               
-    </div>    
-  </article> 
+<section id="sobre-mi" data-section="sobre-mi" class="scroll-m-20">
+  <h2 class="flex items-center mb-6 text-3xl font-semibold gap-x-8">{i18n.header.about}</h2>
 
+  <article class="flex flex-col items-center justify-center gap-8 md:flex-row">
+    <div class="[&>p]:mb-4 text-pretty">
+      <p set:html={i18n.about.summary} />
+    </div>
+  </article>
 </section>

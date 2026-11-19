@@ -1,39 +1,51 @@
 ---
-import FlagMX from '@assets/flag-mx.png';
+import FlagMX from '@assets/flag-mx.png'
 import FlagEEUU from '@assets/flag-eeuu.png'
 
-const currentYear = () => new Date().getFullYear();
+const currentYear = () => new Date().getFullYear()
 
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<footer aria-label="Footer" class="flex items-center justify-center flex-none md:flex-row flex-nowrap gap-3 md:gap-5 min-h-min my-16">
+<footer
+  aria-label="Footer"
+  class="flex items-center justify-center flex-none md:flex-row flex-nowrap gap-3 md:gap-5 min-h-min my-16"
+>
   <div class="flex flex-row items-center gap-2 group">
-    <p>{i18n.footer.copyright} </p>
-    <svg xmlns="http://www.w3.org/2000/svg" class="stroke-color-black-extra dark:stroke-color-light-extra group-hover:fill-red-700 group-hover:stroke-red-700" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <p>{i18n.footer.copyright}</p>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="stroke-color-black-extra dark:stroke-color-light-extra group-hover:fill-red-700 group-hover:stroke-red-700"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
     </svg>
   </div>
   <div class="border border-gray-950 dark:border-slate-100 border-l border-r border-solid aspect-square rounded-full overflow-hidden relative w-1 will-change-transform"></div>
-  {
-    currentLocale === "en" ? 
-    <a href="/" class="flex gap-1 items-center justify-center"> 
-      <img src={FlagMX.src} alt="méxico" class="h-4 w-4">       
+  {currentLocale === 'en' ? (
+    <a href="/" class="flex gap-1 items-center justify-center">
+      <img src={FlagMX.src} alt="méxico" class="h-4 w-4" />
       Spanish
-      </a> : 
-      <a href="/en" class="flex gap-1 items-center justify-center">
-        <img src={FlagEEUU.src} alt="eeuu" class="h-4 w-4"> 
-        Inglés
-      </a>
-  }
+    </a>
+  ) : (
+    <a href="/en" class="flex gap-1 items-center justify-center">
+      <img src={FlagEEUU.src} alt="eeuu" class="h-4 w-4" />
+      Inglés
+    </a>
+  )}
   <div class="border border-gray-950 dark:border-slate-100 border-l border-r border-solid aspect-square rounded-full overflow-hidden relative w-1 will-change-transform"></div>
   <div>
     <p>{currentYear()}</p>
   </div>
-  
 </footer>

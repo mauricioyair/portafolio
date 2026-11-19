@@ -1,19 +1,19 @@
 ---
 interface Props {
-  title: string;
-  body: string;
-  href: string;
-  status: string;
-  image: string;
-  tech: Array<string>;
+  title: string
+  body: string
+  href: string
+  status: string
+  image: string
+  tech: Array<string>
 }
 
-const { href, title, body, tech, status, image } = Astro.props;
+const { href, title, body, tech, status, image } = Astro.props
 ---
 
 <li
   aria-label="card item"
-  class="list-none flex items-stretch h-full p-0 border-r border-t border-l border-b border-solid bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra dark:bg-none bg-[length:400%] bg-center rounded-2xl shadow-inset transition-all duration-300 ease-out hover:bg-[0] hover:bg-linear-gradient group"
+  class="list-none flex items-stretch h-full p-0 border-r border-t border-l border-b border-solid bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra dark:bg-none bg-center rounded-2xl shadow-inset transition-all duration-300 ease-out hover:bg-[0] hover:bg-linear-gradient group bg-size-[400%]"
 >
   <a
     href={href}
@@ -29,7 +29,7 @@ const { href, title, body, tech, status, image } = Astro.props;
     />
 
     <!-- Overlay -->
-    <div class="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out"></div>
+    <div class="absolute inset-0 z-10 pointer-events-none from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out bg-linear-to-t"></div>
 
     <!-- Contenido -->
     <div class="relative z-20 p-6 flex flex-col flex-1">

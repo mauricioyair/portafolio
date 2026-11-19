@@ -1,9 +1,9 @@
 ---
 import Stack from '@assets/Stack.astro'
-import Confetti from "@/assets/Confetti.astro"
+import Confetti from '@/assets/Confetti.astro'
 
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
@@ -11,56 +11,57 @@ const i18n = getI18N({ currentLocale })
 
 <section class="mb-7">
   <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_experience}</h2>
-  <ul class="flex flex-col gap-6">    
-    {
-      i18n.work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url, badges, achievements }) => {          
-          const startFormatDate = new Date(startDate)
-          const endFormatDate = new Date(endDate)
+  <ul class="flex flex-col gap-6">
+    {i18n.work.map(
+      ({ name, startDate, endDate, position, summary, highlights, url, badges, achievements }) => {
+        const startFormatDate = new Date(startDate)
+        const endFormatDate = new Date(endDate)
 
-          const startmonth = startFormatDate.toLocaleString(currentLocale, { month: "long" })
-          const startYear = String(startFormatDate.getFullYear())
+        const startmonth = startFormatDate.toLocaleString(currentLocale, { month: 'long' })
+        const startYear = String(startFormatDate.getFullYear())
 
-          const endMonth = endFormatDate.toLocaleString(currentLocale, { month: "long" })
-          const endYear = endDate != null ? String(endFormatDate.getFullYear()) : "Actual"
-          const years = `${startmonth} ${startYear} - ${endMonth} ${endYear}`
-        
-          return (
-            <li>
-              <article>
-                <header class="mb-2">                  
-                    <h3 class="font-semibold text-lg flex flex-wrap gap-x-2">
-                      {position}
-                      <span>|</span>
-                      {
-                        url ?                                           
-                        <a 
-                          href={url} 
-                          title={`${i18n.seo.title_link.normal} ${url}`} 
-                          target="_blank" 
-                          class="hover:underline"
-                          rel="nofollow noreferrer noopener"
-                          >
-                          {name}
-                        </a>                                            
-                      : {name}
-                      }                    
-                    </h3>
+        const endMonth = endFormatDate.toLocaleString(currentLocale, { month: 'long' })
+        const endYear = endDate != null ? String(endFormatDate.getFullYear()) : 'Actual'
+        const years = `${startmonth} ${startYear} - ${endMonth} ${endYear}`
 
-                    <div class="text-gray-500 text-[0.85rem]">
-                      {badges.map(badge => <span>{badge}</span>)}
-                      <span> | </span>
-                      <time class="text-right capitalize">{years}</time>
-                    </div>                
-                </header>
+        return (
+          <li>
+            <article>
+              <header class="mb-2">
+                <h3 class="font-semibold text-lg flex flex-wrap gap-x-2">
+                  {position}
+                  <span>|</span>
+                  {url ? (
+                    <a
+                      href={url}
+                      title={`${i18n.seo.title_link.normal} ${url}`}
+                      target="_blank"
+                      class="hover:underline"
+                      rel="nofollow noreferrer noopener"
+                    >
+                      {name}
+                    </a>
+                  ) : (
+                    { name }
+                  )}
+                </h3>
 
-                <footer>
-                  <ul class="inline-block list-disc ml-6 text-wrap leading-6">                  
-                    {
-                      summary.map(summ => <li>{summ}</li>)
-                    }
-                  </ul>
-                  {/* {
+                <div class="text-gray-500 text-[0.85rem]">
+                  <time class="text-right capitalize">{years}</time>
+                  <span> | </span>
+                  {badges.map((badge) => (
+                    <span>{badge}</span>
+                  ))}
+                </div>
+              </header>
+
+              <footer>
+                <ul class="inline-block list-disc ml-6 text-wrap leading-6">
+                  {summary.map((summ) => (
+                    <li>{summ}</li>
+                  ))}
+                </ul>
+                {/* {
                     achievements && (                      
                     <div class="my-2">
                       <div class="flex items-center gap-3">
@@ -82,40 +83,37 @@ const i18n = getI18N({ currentLocale })
                       <ul class="inline-flex items-center gap-2 flex-wrap">  
                       {
                         highlights.map(highlight => 
-                          <li class="truncate border-1 border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
+                          <li class="truncate border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
                           <span>{highlight}</span>
                           </li>
                         )
                       }
                       </ul> 
                     </div>
-                  </div> */}                                      
-                </footer>
-              </article>
-            </li>
-          )
-        }
-      )
-    }
+                  </div> */}
+              </footer>
+            </article>
+          </li>
+        )
+      }
+    )}
   </ul>
 </section>
 
-<style>     
-  
+<style>
   article header h3 span {
-    align-items: center;            
+    align-items: center;
     display: flex;
-    font-size: 0.8rem;    
+    font-size: 0.8rem;
   }
 
   /* footer ul li {
-    margin-left: 24px;    
-    line-height: 1.5;    
+    margin-left: 24px;
+    line-height: 1.5;
     text-wrap: pretty;
   } */
 
   footer span {
-    margin: 0.5rem 0rem;    
+    margin: 0.5rem 0rem;
   }
-
 </style>

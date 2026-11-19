@@ -1,28 +1,41 @@
 ---
-import Layout from '../layouts/Layout.astro';
-
+import Layout from '../layouts/Layout.astro'
 
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
-
 ---
 
-<Layout title='404' description='Página 404'>
+<Layout title="404" description="Página 404">
   <main class="m-auto w-full p-4 md:p-12 h-full absolute top-0 bottom-0 right-0 left-0">
-    <div class="flex flex-col justify-center items-center m-auto md:w-[800px] h-full">
-      <h1 class="text-9xl font-black">404</h1>        
-        <p class="my-4">{i18n.page_error.title}</p>    
-        <a
-          href="/"
-          class="flex flex-grow-0 justify-center items-center gap-2 bg-white hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark outline-none font-medium text-base py-2 px-4 rounded"
+    <div class="flex flex-col justify-center items-center m-auto md:w-200 h-full">
+      <h1 class="text-9xl font-black">404</h1>
+      <p class="my-4">{i18n.page_error.title}</p>
+      <a
+        href="/"
+        class="flex grow-0 justify-center items-center gap-2 bg-white hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark outline-none font-medium text-base py-2 px-4 rounded"
+      >
+        <svg
+          style="margin-right: 8px"
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
         >
-          <svg style="margin-right: 8px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M10 12h4v4h-4z" /></svg>
-          {i18n.page_error.button_home}
-        </a> 
-
-    </div>  
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+          <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+          <path d="M10 12h4v4h-4z" />
+        </svg>
+        {i18n.page_error.button_home}
+      </a>
+    </div>
   </main>
 </Layout>

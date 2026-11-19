@@ -8,81 +8,83 @@ import CssIcon from '@assets/2x/CSS.astro'
 import MyslIcon from '@assets/2x/Mysql.astro'
 import GitIcon from '@assets/2x/Git.astro'
 
-
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
 <section id="herramientas" data-section="habilidades" class="scroll-m-20">
-  <h2 class="flex items-center mb-12 text-3xl font-semibold gap-x-8">     
-    {i18n.header.tools}
-  </h2> 
+  <h2 class="flex items-center mb-12 text-3xl font-semibold gap-x-8">{i18n.header.tools}</h2>
   <article class="group flex items-start gap-4 Marquees mb-16">
     <div class="flex items-center gap-4 max-w-full overflow-hidden select-none">
       <ul class="flex items-start justify-around gap-4 shrink-0 min-w-full animate-marquee cursor-no-drop group-hover:[animation-play-state:paused]">
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <HtmlIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <CssIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <JavascriptIcon />
-        </li>       
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <FigmaIcon />
-        </li>        
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <WordpressIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
-          <PhpIcon />               
-        </li>        
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
-            <MyslIcon />
-        </li>        
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
-            <GitIcon />
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
+          <PhpIcon />
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
+          <MyslIcon />
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
+          <GitIcon />
         </li>
       </ul>
-  
+
       <!-- Repeated Marquee -->
       <ul class="flex items-start justify-around gap-4 shrink-0 min-w-full animate-marquee cursor-no-drop group-hover:[animation-play-state:paused]">
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <HtmlIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <CssIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <JavascriptIcon />
-        </li>                     
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <FigmaIcon />
-        </li>        
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
           <WordpressIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
-          <PhpIcon />               
-        </li>        
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
-            <MyslIcon />
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
+          <PhpIcon />
         </li>
-        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">   
-            <GitIcon />
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
+          <MyslIcon />
+        </li>
+        <li class="h-full w-full rounded-2xl border bg-color-light-extra dark:bg-color-black-extra dark:border-border-dark px-8 py-6">
+          <GitIcon />
         </li>
       </ul>
     </div>
   </article>
 </section>
 
-
 <style>
-  .Marquees{ 
-    mask-image:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%);
+  .Marquees {
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0, 0, 0) 10%,
+      rgb(0, 0, 0) 90%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
 </style>

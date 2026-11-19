@@ -1,66 +1,65 @@
 ---
-
 // Supports weights 100-900
-import '@fontsource-variable/dm-sans';
+import '@fontsource-variable/dm-sans'
 // Supports weights 100-900
-import '@fontsource-variable/onest';
+import '@fontsource-variable/onest'
 // Global styles
-import "../styles/globals.css";
+import '../styles/globals.css'
 
 interface Props {
-	title: string;
-	description: string;
+  title: string
+  description: string
 }
 
-const { title, description } = Astro.props;
+const { title, description } = Astro.props
 const { currentLocale } = Astro
-const canonicalURL = new URL(Astro.url.pathname, Astro.site); 
+const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 ---
 
 <!doctype html>
 <html lang={currentLocale}>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content={description} />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>{title}</title>
-		<link rel="canonical" href={canonicalURL} />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <link rel="canonical" href={canonicalURL} />
 
-		<!-- Open Graph / Facebook -->
-		<meta property="og:locale" content={currentLocale} />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content={canonicalURL} />
-		<meta property="og:title" content={title} />
-		<meta property="og:description" content={description} />
-		<meta property="og:image" content="/screenshot.png" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content={currentLocale} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/screenshot.png" />
 
-		<!-- Twitter -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content={title} />
-		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content="/screenshot.png" />
-		<meta name="twitter:image:alt" content={title} />
-		<meta name="twitter:site" content="@mauricioyair" />
-		<meta name="twitter:creator" content="@mauricioyair" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/screenshot.png" />
+    <meta name="twitter:image:alt" content={title} />
+    <meta name="twitter:site" content="@mauricioyair" />
+    <meta name="twitter:creator" content="@mauricioyair" />
 
-		<!-- Google tag (gtag.js) -->
-		<script 
-			async 
-			src="https://www.googletagmanager.com/gtag/js?id=G-DL0390MJXK"
-			type="text/partytown"
-		></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DL0390MJXK"
+      type="text/partytown"
+    ></script>
 
-		<script type="text/partytown">
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-DL0390MJXK');
-		</script>
-		
-	</head>
-	<body>
-		<slot />
-	</body>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-DL0390MJXK')
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
-

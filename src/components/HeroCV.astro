@@ -1,17 +1,16 @@
 ---
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/'
 
 const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 
-
-import Mail from "@/assets/Mail.astro"
-import Phone from "@/assets/Phone.astro"
-import LinkedIn from "@/assets/LinkedIn.astro"
-import GitHub from "@/assets/GitHub.astro"
-import Country from "@/assets/Country.astro"
-import World from "@/assets/World.astro"
+import Mail from '@/assets/Mail.astro'
+import Phone from '@/assets/Phone.astro'
+import LinkedIn from '@/assets/LinkedIn.astro'
+import GitHub from '@/assets/GitHub.astro'
+import Country from '@/assets/Country.astro'
+import World from '@/assets/World.astro'
 
 const { name, label, image, location, profiles, phone, email, url } = i18n.basics
 const { city, region } = location
@@ -20,15 +19,14 @@ const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
 }
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedInfo = profiles.find(({ network }) => network === 'LinkedIn')
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, url].filter(Boolean).join(" • ")
-
+const printInfo = [email, phone, url].filter(Boolean).join(' • ')
 ---
 
 <section class="mb-7">
-  <div class="flex flex-col md:flex-row items-center justify-start gap-8">    
+  <div class="flex flex-col md:flex-row items-center justify-start gap-8">
     <figure class="no-print">
       <img src={image} alt={name} class="aspect-square object-cover w-32 rounded-2xl" />
     </figure>
@@ -44,85 +42,74 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ")
         <p>{printInfo}</p>
       </footer>
       <footer class="no-print">
-        {
-          url && (
-            <a
-              href={url}              
-              title={`${i18n.seo.title_link.normal} ${url}`}
-              target="_self"
-              rel="noopener noreferrer"
-              class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
-            >
-              <World />
-            </a>
-          )
-        }
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}              
-              title={`${i18n.seo.title_link.mail} ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
-            >
-              <Mail />
-            </a>
-          )
-        }
-        {
-          phone && (
-            <a
-              href={`tel:${phone}`}              
-              title={`${i18n.seo.title_link.phone} ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network]
+        {url && (
+          <a
+            href={url}
+            title={`${i18n.seo.title_link.normal} ${url}`}
+            target="_self"
+            rel="noopener noreferrer"
+            class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+          >
+            <World />
+          </a>
+        )}
+        {email && (
+          <a
+            href={`mailto:${email}`}
+            title={`${i18n.seo.title_link.mail} ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+          >
+            <Mail />
+          </a>
+        )}
+        {phone && (
+          <a
+            href={`tel:${phone}`}
+            title={`${i18n.seo.title_link.phone} ${phone}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+          >
+            <Phone />
+          </a>
+        )}
+        {profiles.map(({ network, url, username }) => {
+          const Icon = SOCIAL_ICONS[network]
 
-            return (
-              <a 
-                href={url} 
-                title={`${i18n.seo.title_link.network} ${network}: ${url}`} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-1 border-r border-t border-l border-b border-solid dark:border-border-dark"
-                >
-                <Icon />
-              </a>
-            )
-          })
-        }
+          return (
+            <a
+              href={url}
+              title={`${i18n.seo.title_link.network} ${network}: ${url}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+            >
+              <Icon />
+            </a>
+          )
+        })}
       </footer>
     </div>
   </div>
 </section>
 
-
-<style>   
-
-  footer {      
+<style>
+  footer {
     display: flex;
     gap: 4px;
     margin-top: 1px;
   }
 
-  footer a {    
+  footer a {
     display: inline-flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     padding: 4px;
     height: 32px;
     width: 32px;
     border-radius: 6px;
     transition: all 0.3s ease;
   }
-  
 </style>
