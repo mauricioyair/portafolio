@@ -6,8 +6,7 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://mauricioyair.github.io",
-  base: "/portafolio",
+  site: "https://mauricioyair.dev",
   integrations: [
     partytown({
       config: {
