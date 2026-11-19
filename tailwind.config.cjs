@@ -18,14 +18,14 @@ module.exports = {
         "color-thirty-light": "rgb(22, 12, 47)",
         "color-thirty-dark": "rgb(22, 40, 0)",
         gradient:
-          "linear-gradient(45deg, var(--accent), var(--accent-light) 30%, white 60%)",
+          "linear-gradient(45deg, var(--accent), var(--accent-light) 30%, black 60%)",
       },
       boxShadow: {
         inset: "inset 0 0 0 1px rgba(255, 255, 255, 0.1)",
       },
       backgroundImage: {
         "linear-gradient":
-          "linear-gradient(45deg, var(--accent), var(--accent-light) 30%, white 60%)",
+          "linear-gradient(45deg, var(--accent), var(--accent-light) 30%, black 60%)",
       },
       maxWidth: {
         cal: "calc(100% - 2rem)",

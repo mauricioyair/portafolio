@@ -1,46 +1,62 @@
 ---
 interface Props {
-	title: string;
-	body: string;
-	href: string;
-	status: string;
-	image: string;
-	tech: Array<string>;
+  title: string;
+  body: string;
+  href: string;
+  status: string;
+  image: string;
+  tech: Array<string>;
 }
 
 const { href, title, body, tech, status, image } = Astro.props;
-
-//Internalization
-import { getI18N } from "../i18n/"
-
-const { currentLocale } = Astro
-const i18n = getI18N({ currentLocale })
 ---
 
-<li aria-label="card item" class="list-none flex items-stretch p-0 border-1 border-r border-t border-l border-b border-solid bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra dark:bg-none bg-[length:400%] bg-center rounded-2xl shadow-inset transition-all duration-700 ease-in-out hover:bg-[0] hover:bg-linear-gradient group">
-	<a href={href} target="_blank" rel="noreferrer" class="relative bottom-0 overflow-hidden w-full no-underline leading-6 rounded-2xl hover:opacity-90">
-		<div class="p-6 flex flex-col h-full">
-			<header class="flex-1">
-				<div class="flex justify-between">
-					<h2 class="mb-2 text-xl font-semibold group-hover:text-white">
-						{title}			
-					</h2>
-					<span class="text-[10px] leading-none group-hover:text-white">{status}</span>
-				</div>
-				<p class="mb-3 group-hover:text-white">
-					{body}
-				</p>
-			</header>
-			<footer>
-				<div class="flex flex-wrap items-center gap-2">			
-					{
-						tech.map((item) => (
-						<span class="truncate border-1 border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">{item}</span>
-						))
-					}
-				</div>
-			</footer>
-		</div>
-		<img src={image} class="absolute -bottom-8 -right-10 -rotate-12 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-in-out -z-10 rounded-xl w-11/12" alt={title}/>
-	</a>
+<li
+  aria-label="card item"
+  class="list-none flex items-stretch h-full p-0 border-r border-t border-l border-b border-solid bg-color-light-extra dark:border-border-dark dark:bg-color-black-extra dark:bg-none bg-[length:400%] bg-center rounded-2xl shadow-inset transition-all duration-300 ease-out hover:bg-[0] hover:bg-linear-gradient group"
+>
+  <a
+    href={href}
+    target="_blank"
+    rel="noreferrer"
+    class="relative isolate overflow-hidden flex flex-col h-full w-full no-underline leading-6 rounded-2xl"
+  >
+    <!-- Imagen -->
+    <img
+      src={image}
+      alt={title}
+      class="absolute -bottom-8 -right-10 -rotate-12 z-0 w-11/12 rounded-xl opacity-0 translate-y-4 scale-95 group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100 transition-all duration-300 ease-out"
+    />
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 z-10 pointer-events-none bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-out"></div>
+
+    <!-- Contenido -->
+    <div class="relative z-20 p-6 flex flex-col flex-1">
+      <header class="flex-1">
+        <div class="flex justify-between gap-3">
+          <h2 class="mb-2 text-xl font-semibold transition-colors duration-200 group-hover:text-white">
+            {title}
+          </h2>
+
+          <span class="text-[10px] leading-none shrink-0 transition-colors duration-200 group-hover:text-white">
+            {status}
+          </span>
+        </div>
+
+        <p class="mb-3 transition-colors duration-200 group-hover:text-white">{body}</p>
+      </header>
+
+      <!-- Tecnologías -->
+      <footer class="mt-auto">
+        <div class="flex flex-wrap items-center gap-2">
+          {tech.map((item) => (
+            <span class="truncate border border-solid border-black/10 dark:border-white/10 bg-color-light-extra dark:bg-color-black-extra group-hover:bg-white/40 dark:group-hover:bg-black/40 group-hover:text-white px-2 py-1 text-xs rounded transition-colors duration-200">
+              {item}
+            </span>
+          ))}
+        </div>
+      </footer>
+    </div>
+  </a>
 </li>

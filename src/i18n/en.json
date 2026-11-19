@@ -57,9 +57,7 @@
     {
       "name": "Bloom Digitals",
       "position": "WordPress and Webflow Developer",
-      "badges": [
-        "Home Office"
-      ],
+      "badges": ["Home Office"],
       "url": "https://bloomdigitals.com/",
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
@@ -69,13 +67,7 @@
         "I created HTML email templates using Stripo and resolved issues with live sites alongside the technical lead, as part of a Kanban workflow."
       ],
       "achievements": "I worked with the team leader to implement technical improvements and resolve issues for various projects",
-      "highlights": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "WordPress",
-        "WebFlow"
-      ],
+      "highlights": ["HTML5", "CSS3", "JavaScript", "WordPress", "WebFlow"],
       "tools": [
         "Figma",
         "Visual Studio Code",
@@ -99,9 +91,7 @@
     {
       "name": "IW Innovation Workshop",
       "position": "WordPress Developer",
-      "badges": [
-        "Hybrid"
-      ],
+      "badges": ["Hybrid"],
       "url": "https://iw.digital",
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
@@ -143,9 +133,7 @@
     {
       "name": "Mercadology",
       "position": "Professional Internship - Web Developer",
-      "badges": [
-        "On-site"
-      ],
+      "badges": ["On-site"],
       "url": "https://mercadology.mx",
       "startDate": "2019-03-02",
       "endDate": "2020-06-02",
@@ -154,19 +142,8 @@
         "I optimized the performance, security, and SEO of WordPress sites built with Elementor, WPBakery, Gutenberg, and Divi."
       ],
       "achievements": "I worked as a team to increase organic positioning and performance.",
-      "highlights": [
-        "WordPress"
-      ],
-      "tools": [
-        "Adobe XD",
-        "Sublime Text",
-        "Atom",
-        "Xampp",
-        "Slack",
-        "Asana",
-        "GA3",
-        "GSC"
-      ]
+      "highlights": ["WordPress"],
+      "tools": ["Adobe XD", "Sublime Text", "Atom", "Xampp", "Slack", "Asana", "GA3", "GSC"]
     }
   ],
   "volunteer": [
@@ -177,9 +154,7 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [
@@ -191,15 +166,7 @@
       "startDate": "2016-01-10",
       "endDate": "2019-08-25",
       "score": "10",
-      "highlights": [
-        "Java",
-        "MySQL",
-        "PHP",
-        "Android Studio",
-        "Ionic",
-        "Linux",
-        "Python"
-      ]
+      "highlights": ["Java", "MySQL", "PHP", "Android Studio", "Ionic", "Linux", "Python"]
     }
   ],
   "awards": [
@@ -236,25 +203,17 @@
     {
       "name": "CSS3",
       "level": "",
-      "keywords": [
-        "Tailwind", 
-        "Bootstrap"]
+      "keywords": ["Tailwind CSS", "Bootstrap"]
     },
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": [
-        "React", 
-        "jQuery"      
-      ]
-    },   
+      "keywords": ["React", "jQuery"]
+    },
     {
       "name": "Figma",
       "level": "",
-      "keywords": [
-        "UI",
-        "UX"
-      ]
+      "keywords": ["UI", "UX"]
     },
     {
       "name": "WordPress",
@@ -269,15 +228,13 @@
     {
       "name": "SQL",
       "level": "",
-      "keywords": [
-        "MySQL", 
-        "PostgreSQL"]
+      "keywords": ["MySQL", "PostgreSQL"]
     },
     {
       "name": "Git",
       "level": "",
       "keywords": ["GitHub"]
-    },    
+    },
     {
       "name": "Python",
       "level": "",
@@ -314,9 +271,7 @@
   "interests": [
     {
       "name": "Play video games",
-      "keywords": [
-        "Shooters"
-      ]
+      "keywords": ["Shooters"]
     }
   ],
   "references": [
@@ -331,52 +286,44 @@
       "status": "Personal",
       "isActive": true,
       "description": " App to add tasks, mark them as completed and delete them",
-      "highlights": [
-        ""
-      ],
+      "highlights": [""],
       "url": "https://mauricioyair.github.io/To-do/",
       "github": "",
       "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1720549250/edxh4qvy8nvx8ar0iwtu.png",
-      "skills": [
-        "React",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-    {
-      "name": "Raesal",
-      "status": "Freelance",
-      "isActive": true,
-      "description": "Emergency power plant services page",
-      "highlights": [
-        ""
-      ],
-      "url": "https://raesal.com.mx",
-      "github": "",
-      "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1720548968/wip3iugwgmc0edc3ndk2.png",
-      "skills": [
-        "Astro",
-        "React",
-        "Tailwind"
-      ]
+      "skills": ["React", "CSS", "JavaScript"]
     },
     {
       "name": "GTI Trailers",
       "status": "Freelance",
       "isActive": true,
       "description": "Automotive and Transportation Industry Services Page",
-      "highlights": [
-        ""
-      ],
+      "highlights": [""],
       "url": "http://gtitrailers.com",
       "github": "",
       "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/f_auto,q_auto/bnyzj6mdl5wew4ad9nmh",
-      "skills": [
-        "WordPress",
-        "Elementor",
-        "PHP",
-        "MySQL"
-      ]
+      "skills": ["WordPress", "Elementor", "PHP", "MySQL"]
+    },
+    {
+      "name": "Raesal",
+      "status": "Freelance",
+      "isActive": true,
+      "description": "Emergency power plant services page",
+      "highlights": [""],
+      "url": "https://raesal.com.mx",
+      "github": "",
+      "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1720548968/wip3iugwgmc0edc3ndk2.png",
+      "skills": ["Astro", "React", "Tailwind CSS"]
+    },
+    {
+      "name": "Nutrithan",
+      "status": "Freelance",
+      "isActive": true,
+      "description": "Nutritionist's Professional Website",
+      "highlights": [""],
+      "url": "https://nutrithan.com/",
+      "github": "",
+      "image": "https://res.cloudinary.com/ddgwmlaim/image/upload/v1795114324/nutrithan_xuddhl.png",
+      "skills": ["HTML", "CSS", "JavaScript"]
     }
   ],
   "about": {

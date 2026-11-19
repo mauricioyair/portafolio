@@ -7,47 +7,42 @@ import About from '@components/About.astro';
 import Footer from '@components/Footer.astro';
 import Header from '@components/Header.astro';
 import ImageGTI from '@assets/screenshot-gti.png';
-import ImageRAESAL from '@assets/screenshot-raesal.png'
-import ImageTPX from '@assets/screenshot-tpx.png'
+import ImageRAESAL from '@assets/screenshot-raesal.png';
+import ImageTPX from '@assets/screenshot-tpx.png';
 
 //Internalization
-import { getI18N } from "../i18n/"
+import { getI18N } from '../i18n/';
 
-const { currentLocale } = Astro
-const i18n = getI18N({ currentLocale })
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <Layout title={i18n.seo.homepage.title} description={i18n.seo.homepage.description}>
-	<Header />
-	<Hero />
+  <Header />
+  <Hero />
 
-	<main class="-mt-16 relative z-10 m-auto p-4 w-[800px] max-w-cal">
-		<section id="proyectos" data-section="proyectos" class="scroll-m-20">
-			<h2 class="flex items-center text-3xl mb-2 font-semibold gap-x-8">     
-				{i18n.header.projects}
-			</h2> 
-			<p class="mb-8">{i18n.labels.label_description_projects}</p>
-			<ul role="list" class="grid gap-5 p-0 md:grid-cols-2 mb-16">				
-				{
-					i18n.projects.map(
-						({ url, description, image, name, status, skills }) => {
-							return (
-								<Card
-									href={url}
-									title={name}
-									body={description}
-									status={status}
-									image={image}
-									tech={skills}
-								/>
-							)
-						}
-					)
-				}							
-			</ul>	
-		</section>
-		<Marquee />	
-		<About />
-		<Footer />
-	</main>
+  <main class="-mt-16 relative z-10 m-auto p-4 w-[800px] max-w-cal">
+    <section id="proyectos" data-section="proyectos" class="scroll-m-20">
+      <h2 class="flex items-center text-3xl mb-2 font-semibold gap-x-8">{i18n.header.projects}</h2>
+      <p class="mb-8">{i18n.labels.label_description_projects}</p>
+      <ul
+        role="list"
+        class="grid grid-cols-1 md:grid-cols-2 md:auto-rows-fr items-stretch gap-5 p-0 mb-16"
+      >
+        {i18n.projects.map(({ url, description, image, name, status, skills }) => (
+          <Card
+            href={url}
+            title={name}
+            body={description}
+            status={status}
+            image={image}
+            tech={skills}
+          />
+        ))}
+      </ul>
+    </section>
+    <Marquee />
+    <About />
+    <Footer />
+  </main>
 </Layout>
