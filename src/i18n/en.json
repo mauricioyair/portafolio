@@ -58,7 +58,7 @@
       "name": "Bloom Digitals",
       "position": "WordPress and Webflow Developer",
       "badges": ["Home Office"],
-      "url": "https://bloomdigitals.com/",
+      "url": "https://bloomdigitals.com",
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
@@ -106,9 +106,9 @@
       "highlights": [
         "HTML5",
         "CSS3",
+        "Bootstrap",
         "JavaScript",
         "jQuery",
-        "Bootstrap",
         "PHP",
         "MySQL",
         "WordPress",
@@ -159,7 +159,7 @@
   ],
   "education": [
     {
-      "institution": "Politécnica de Santa Rosa Jáuregui (UPSRJ)",
+      "institution": "Politécnica de Santa Rosa",
       "url": "https://upsrj.edu.mx",
       "area": "Software Engineering",
       "studyType": "University",
