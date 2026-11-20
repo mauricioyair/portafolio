@@ -9,7 +9,7 @@ const i18n = getI18N({ currentLocale })
 ---
 
 <section class="mb-7">
-  <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_education}</h2>
+  <h2 class="mb-2 text-2xl font-bold">{i18n.labels.label_education}</h2>
   <ul class="flex flex-col gap-4">
     {i18n.education.map(({ institution, startDate, endDate, area, url, highlights }) => {
       const startFormatDate = new Date(startDate)
@@ -26,9 +26,9 @@ const i18n = getI18N({ currentLocale })
         <li>
           <article>
             <header class="mb-2">
-              <h3 class="font-semibold text-lg flex flex-wrap gap-x-2">
+              <h3 class="flex flex-wrap text-lg font-semibold gap-x-2">
                 {area}
-                <span>|</span>
+                <span class="flex items-center text-xs">|</span>
                 {url ? (
                   <a
                     href={url}
@@ -44,28 +44,26 @@ const i18n = getI18N({ currentLocale })
                 )}
               </h3>
 
-              <div class="text-gray-500 text-[0.85rem]">
+              <div class="text-xs text-gray-500">
                 <time class="text-right capitalize">{years}</time>
               </div>
             </header>
-            <footer>
-              {/* <div class="flex items-center gap-3">
-                    <figure class="no-print">
-                      <Book />
-                    </figure>
-                    <div class="flex-1">
-                      <ul class="inline-flex items-center gap-2 flex-wrap">  
-                      {
-                        highlights.map(highlight => 
-                          <li class="truncate  border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
-                          <span>{highlight}</span>
-                          </li>
-                        )
-                      }
-                      </ul> 
-                    </div>
-                  </div> */}
-            </footer>
+            {/* <footer>
+              <div class="flex items-center gap-3">
+                <figure class="no-print">
+                  <Book />
+                </figure>
+                <div class="flex-1">
+                  <ul class="inline-flex flex-wrap items-center gap-2">
+                    {highlights.map((highlight) => (
+                      <li class="px-2 py-1 text-xs truncate border-t border-b border-l border-r border-solid rounded group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra">
+                        <span>{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </footer> */}
           </article>
         </li>
       )
@@ -74,12 +72,6 @@ const i18n = getI18N({ currentLocale })
 </section>
 
 <style>
-  article header h3 span {
-    align-items: center;
-    display: flex;
-    font-size: 0.8rem;
-  }
-
   /* footer ul li {
     margin-left: 24px;
     line-height: 1.5;

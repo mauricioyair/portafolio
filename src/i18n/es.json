@@ -14,7 +14,7 @@
       "phone": "Contáctame por teléfono a:",
       "network": "Visita mi perfil de",
       "cv": "Visita mi currículum vitae",
-      "certificate": "Ver mis certificados en:"
+      "certificate": "Ver mis certificados en"
     }
   },
   "basics": {
@@ -24,7 +24,7 @@
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.dev",
-    "summary": "Ingeniero en Software con más de seis años de experiencia en desarrollo web, mantenimiento de sitios en producción y colaboración con equipos técnicos. Busco orientar mi carrera hacia la ingeniería de datos y aportar mis bases de programación, control de versiones y trabajo con bases de datos relacionales. Actualmente desarrollo mis habilidades en Python y SQL. Interesado en una posición junior de datos.",
+    "summary": "Ingeniero en Software con seis años de experiencia en desarrollo web. He desarrollado temas desde cero, con la arquitectura del core de WordPress, CPT, campos ACF y consultas WP_Query para mostrar contenido dinámico. También he realizado consultas a APIs REST con JavaScript y creado sitios responsive con CSS, y frameworks. Cuento con experiencia en mantenimiento de sitios en producción. Actualmente continúo fortaleciendo mi nivel de inglés.",
     "others": {
       "name": "Hola, soy Mauricio ✌🏻",
       "ocupation_1": "Ingeniero de",
@@ -179,10 +179,16 @@
   ],
   "certificates": [
     {
-      "name": "Platzi",
-      "date": null,
+      "name": "Curso de Creación de Temas para WordPress",
+      "date": "2022-09-25",
       "issuer": "Platzi",
-      "url": "https://platzi.com/p/maauricioyair"
+      "url": "https://platzi.com/p/maauricioyair/curso/2536-course/diploma/detalle/?utm_source=copy_link&utm_medium=social&utm_campaign=share_certificate"
+    },
+    {
+      "name": "Curso de HTML y CSS",
+      "date": "2022-10-10",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/maauricioyair/curso/1758-course/diploma/detalle/?utm_source=copy_link&utm_medium=social&utm_campaign=share_certificate"
     }
   ],
   "publications": [

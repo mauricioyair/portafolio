@@ -7,11 +7,11 @@ const i18n = getI18N({ currentLocale })
 ---
 
 <section class="mb-7">
-  <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_language}</h2>
-  <ul>
+  <h2 class="mb-2 text-2xl font-bold">{i18n.labels.label_language}</h2>
+  <ul class="inline-flex flex-wrap gap-2">
     {i18n.languages.map(({ language, fluency }) => {
       return (
-        <li class="truncate border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
+        <li class="px-2 py-1 text-sm truncate bg-white border-t border-b border-l border-r border-solid rounded rounded-r-md group-hover:bg-transparent group-hover:text-white dark:bg-color-black-extra dark:border-border-dark">
           <span>
             {language} - {fluency}
           </span>
@@ -20,17 +20,3 @@ const i18n = getI18N({ currentLocale })
     })}
   </ul>
 </section>
-
-<style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  li {
-    border-radius: 6px;
-    font-size: 0.8rem;
-    padding: 0.2rem 0.6rem;
-  }
-</style>

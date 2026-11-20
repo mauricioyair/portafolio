@@ -14,7 +14,7 @@
       "phone": "Please call me at:",
       "network": "Visit my profile on",
       "cv": "View my resume",
-      "certificate": "View my certificates at:"
+      "certificate": "View my certificates at"
     }
   },
   "basics": {
@@ -24,7 +24,7 @@
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.dev",
-    "summary": "Software Engineer with over six years of experience in web development, maintaining live websites, and collaborating with technical teams. I am looking to shift my career toward data engineering and contribute my skills in programming, version control, and working with relational databases. I am currently developing my skills in Python and SQL. I am interested in a junior data role.",
+    "summary": "Software Engineer with six years of experience in web development. I have developed themes from scratch using the WordPress core architecture, Custom Post Types (CPT), ACF fields, and WP_Query to display dynamic content. I have also made requests to REST APIs using JavaScript and created responsive sites using CSS and frameworks. I have experience maintaining live sites. I am currently continuing to improve my English skills.",
     "others": {
       "name": "Hi, I'm Mauricio ✌🏻",
       "ocupation_1": "Software",
@@ -179,10 +179,16 @@
   ],
   "certificates": [
     {
-      "name": "Platzi",
-      "date": null,
+      "name": "WordPress Theme Development Course",
+      "date": "2022-09-25",
       "issuer": "Platzi",
-      "url": "https://platzi.com/p/maauricioyair"
+      "url": "https://platzi.com/p/maauricioyair/curso/2536-course/diploma/detalle/?utm_source=copy_link&utm_medium=social&utm_campaign=share_certificate"
+    },
+    {
+      "name": "HTML and CSS Course",
+      "date": "2022-10-10",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/maauricioyair/curso/1758-course/diploma/detalle/?utm_source=copy_link&utm_medium=social&utm_campaign=share_certificate"
     }
   ],
   "publications": [

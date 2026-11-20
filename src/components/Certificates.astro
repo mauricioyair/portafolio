@@ -7,14 +7,20 @@ const i18n = getI18N({ currentLocale })
 ---
 
 <section class="mb-7">
-  <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_certificacion}</h2>
-  <ul>
-    {i18n.certificates.map(({ name, url }) => {
+  <h2 class="mb-2 text-2xl font-bold">{i18n.labels.label_certificacion}</h2>
+  <ul class="inline-flex flex-wrap gap-2">
+    {i18n.certificates.map(({ name, url, date }) => {
+      const startFormatDate = new Date(date)
+
+      const month = startFormatDate.toLocaleString(currentLocale, { month: 'long' })
+      const year = String(startFormatDate.getFullYear())
+      const years = `${month} ${year} `
+
       return (
         <>
-          <li class="no-print truncate border-r border-t border-l border-b border-solid group-hover:bg-transparent group-hover:text-white bg-color-light-extra dark:bg-color-black-extra px-2 py-1 text-xs rounded">
+          <li class="px-2 py-1 text-sm truncate bg-white border-t border-b border-l border-r border-solid rounded rounded-r-md no-print group-hover:bg-transparent group-hover:text-white hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark">
             <a href={url} target="_blank" title={`${i18n.seo.title_link.certificate} ${url}`}>
-              <span>
+              <span class="flex items-center gap-1">
                 {name}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -31,30 +37,15 @@ const i18n = getI18N({ currentLocale })
             </a>
           </li>
           <li class="print">
-            <span>{url}</span>
+            <h3 class="flex flex-wrap text-lg font-semibold gap-x-2">{name}</h3>
+            <div class="text-xs text-gray-500">
+              <time class="text-right capitalize">{years}</time>
+            </div>
+
+            <p class="text-pretty">{url}</p>
           </li>
         </>
       )
     })}
   </ul>
 </section>
-
-<style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  li {
-    border-radius: 6px;
-    font-size: 0.8rem;
-    padding: 0.2rem 0.6rem;
-  }
-
-  span {
-    display: flex;
-    align-items: center;
-    column-gap: 4px;
-  }
-</style>
