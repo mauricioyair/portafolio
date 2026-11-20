@@ -11,6 +11,7 @@ import LinkedIn from '@/assets/LinkedIn.astro'
 import GitHub from '@/assets/GitHub.astro'
 import Country from '@/assets/Country.astro'
 import World from '@/assets/World.astro'
+import Platzi from '@assets/Platzi.astro'
 
 const { name, label, image, location, profiles, phone, email, url } = i18n.basics
 const { city, region } = location
@@ -26,14 +27,14 @@ const printInfo = [email, phone, url].filter(Boolean).join(' • ')
 ---
 
 <section class="mb-7">
-  <div class="flex flex-col md:flex-row items-center justify-start gap-8">
+  <div class="flex flex-col items-center justify-start gap-8 md:flex-row">
     <figure class="no-print">
-      <img src={image} alt={name} class="aspect-square object-cover w-32 rounded-2xl" />
+      <img src={image} alt={name} class="object-cover w-32 aspect-square rounded-2xl" />
     </figure>
 
-    <div class="flex justify-center items-center pr-0 text-center md:items-start md:justify-start flex-col gap-2 md:gap-1 md:pr-8">
+    <div class="flex flex-col items-center justify-center gap-2 pr-0 text-center md:items-start md:justify-start md:gap-1 md:pr-8">
       <h1 class="text-2xl">{name}</h1>
-      <h2 class="text-base text-balance font-medium">{label}</h2>
+      <h2 class="text-base font-medium text-balance">{label}</h2>
       <span class="flex items-center gap-1">
         <Country />
         {city}, {region}
@@ -48,7 +49,7 @@ const printInfo = [email, phone, url].filter(Boolean).join(' • ')
             title={`${i18n.seo.title_link.normal} ${url}`}
             target="_self"
             rel="noopener noreferrer"
-            class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+            class="border-t border-b border-l border-r border-solid hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark"
           >
             <World />
           </a>
@@ -59,7 +60,7 @@ const printInfo = [email, phone, url].filter(Boolean).join(' • ')
             title={`${i18n.seo.title_link.mail} ${email}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+            class="border-t border-b border-l border-r border-solid hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark"
           >
             <Mail />
           </a>
@@ -70,7 +71,7 @@ const printInfo = [email, phone, url].filter(Boolean).join(' • ')
             title={`${i18n.seo.title_link.phone} ${phone}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+            class="border-t border-b border-l border-r border-solid hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark"
           >
             <Phone />
           </a>
@@ -84,12 +85,21 @@ const printInfo = [email, phone, url].filter(Boolean).join(' • ')
               title={`${i18n.seo.title_link.network} ${network}: ${url}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark border-r border-t border-l border-b border-solid dark:border-border-dark"
+              class="border-t border-b border-l border-r border-solid hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark"
             >
               <Icon />
             </a>
           )
         })}
+        <a
+          href="https://platzi.com/p/maauricioyair/"
+          title={`${i18n.seo.title_link.certificate} Platzi: https://platzi.com/p/maauricioyair/`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border-t border-b border-l border-r border-solid hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark"
+        >
+          <Platzi />
+        </a>
       </footer>
     </div>
   </div>
