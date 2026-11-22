@@ -6,7 +6,7 @@ const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<section class="mb-7">
-  <h2 class="mb-2 font-bold text-2xl">{i18n.labels.label_resumen}</h2>
+<section>
+  <h3 class="mb-2 font-bold text-2xl">{i18n.labels.label_resumen}</h3>
   <p>{i18n.basics.summary}</p>
 </section>

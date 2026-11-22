@@ -6,8 +6,8 @@ const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<section class="mb-7">
-  <h2 class="mb-2 text-2xl font-bold">{i18n.labels.label_certificacion}</h2>
+<section>
+  <h3 class="mb-2 text-2xl font-bold">{i18n.labels.label_certificacion}</h3>
   <ul class="inline-flex flex-wrap gap-2">
     {i18n.certificates.map(({ name, url, date }) => {
       const startFormatDate = new Date(date)
@@ -20,7 +20,7 @@ const i18n = getI18N({ currentLocale })
         <>
           <li class="px-2 py-1 text-sm truncate bg-white border-t border-b border-l border-r border-solid rounded rounded-r-md no-print group-hover:bg-transparent group-hover:text-white hover:bg-color-light-extra dark:bg-color-black-extra dark:hover:bg-hover-dark dark:border-border-dark">
             <a href={url} target="_blank" title={`${i18n.seo.title_link.certificate} ${url}`}>
-              <span class="flex items-center gap-1">
+              <p class="flex items-center gap-1">
                 {name}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -33,11 +33,11 @@ const i18n = getI18N({ currentLocale })
                     d="M11 17H7q-2.075 0-3.537-1.463T2 12q0-2.075 1.463-3.537T7 7h4v2H7q-1.25 0-2.125.875T4 12q0 1.25.875 2.125T7 15h4zm-3-4v-2h8v2zm5 4v-2h4q1.25 0 2.125-.875T20 12q0-1.25-.875-2.125T17 9h-4V7h4q2.075 0 3.538 1.463T22 12q0 2.075-1.463 3.538T17 17z"
                   />
                 </svg>
-              </span>
+              </p>
             </a>
           </li>
           <li class="print">
-            <h3 class="flex flex-wrap text-lg font-semibold gap-x-2">{name}</h3>
+            <h4 class="flex flex-wrap text-lg font-semibold gap-x-2">{name}</h4>
             <div class="text-xs text-gray-500">
               <time class="text-right capitalize">{years}</time>
             </div>

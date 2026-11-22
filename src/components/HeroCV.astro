@@ -26,7 +26,7 @@ const linkedUrl = linkedInfo?.url
 const printInfo = [email, phone, url].filter(Boolean).join(' • ')
 ---
 
-<section class="mb-7">
+<section>
   <div class="flex flex-col items-center justify-start gap-8 md:flex-row">
     <figure class="no-print">
       <img src={image} alt={name} class="object-cover w-32 rounded-full aspect-square" />
@@ -35,10 +35,10 @@ const printInfo = [email, phone, url].filter(Boolean).join(' • ')
     <div class="flex flex-col items-center justify-center gap-2 pr-0 text-center md:items-start md:justify-start md:gap-1 md:pr-8">
       <h1 class="text-2xl">{name}</h1>
       <h2 class="text-base font-medium text-balance">{label}</h2>
-      <span class="flex items-center gap-1">
+      <p class="flex items-center gap-1">
         <Country />
         {city}, {region}
-      </span>
+      </p>
       <footer class="print">
         <p>{printInfo}</p>
       </footer>

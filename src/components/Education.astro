@@ -8,8 +8,8 @@ const { currentLocale } = Astro
 const i18n = getI18N({ currentLocale })
 ---
 
-<section class="mb-7">
-  <h2 class="mb-2 text-2xl font-bold">{i18n.labels.label_education}</h2>
+<section>
+  <h3 class="mb-2 text-2xl font-bold">{i18n.labels.label_education}</h3>
   <ul class="flex flex-col gap-4">
     {i18n.education.map(({ institution, startDate, endDate, area, url, highlights }) => {
       const startFormatDate = new Date(startDate)
@@ -26,9 +26,9 @@ const i18n = getI18N({ currentLocale })
         <li>
           <article>
             <header class="mb-2">
-              <h3 class="flex flex-wrap text-lg font-semibold gap-x-2">
+              <h4 class="flex flex-wrap text-lg font-semibold gap-x-2">
                 {area}
-                <span class="flex items-center text-xs">|</span>
+                <div class="flex items-center text-xs">|</div>
                 {url ? (
                   <a
                     href={url}
@@ -42,7 +42,7 @@ const i18n = getI18N({ currentLocale })
                 ) : (
                   { institution }
                 )}
-              </h3>
+              </h4>
 
               <div class="text-xs text-gray-500">
                 <time class="text-right capitalize">{years}</time>
