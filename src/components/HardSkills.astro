@@ -9,12 +9,14 @@ const i18n = getI18N({ currentLocale })
 <section>
   <h3 class="mb-2 text-2xl font-bold">{i18n.labels.label_hard_skills}</h3>
   <ul class="inline-flex flex-wrap gap-2">
-    {i18n.hardskills.map(({ name }) => {
-      return (
-        <li class="px-2 py-1 text-sm truncate bg-white border-t border-b border-l border-r border-solid rounded rounded-r-md group-hover:bg-transparent group-hover:text-white dark:bg-color-black-extra dark:border-border-dark">
-          <p>{name}</p>
-        </li>
-      )
+    {i18n.hardskills.map(({ name, show_front }) => {
+      if (show_front === true) {
+        return (
+          <li class="px-2 py-1 text-sm truncate bg-white border-t border-b border-l border-r border-solid rounded rounded-r-md group-hover:bg-transparent group-hover:text-white dark:bg-color-black-extra dark:border-border-dark">
+            <p>{name}</p>
+          </li>
+        )
+      }
     })}
   </ul>
 </section>
