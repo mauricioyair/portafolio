@@ -11,7 +11,7 @@ const i18n = getI18N({ currentLocale })
 
 <section>
   <h3 class="mb-2 text-2xl font-bold">{i18n.labels.label_experience}</h3>
-  <ul class="flex flex-col gap-6">
+  <ul class="flex flex-col gap-4">
     {i18n.work.map(
       ({ name, startDate, endDate, position, summary, highlights, url, badges, achievements }) => {
         const startFormatDate = new Date(startDate)
@@ -25,7 +25,7 @@ const i18n = getI18N({ currentLocale })
         const years = `${startmonth} ${startYear} - ${endMonth} ${endYear}`
 
         return (
-          <li class="pb-6 border-b dark:border-border-dark last:border-b-0 last:pb-0">
+          <li class="pb-4 border-b dark:border-border-dark last:border-b-0 last:pb-0">
             <article>
               <header class="mb-2">
                 <h4 class="flex flex-wrap text-lg font-semibold gap-x-2">
@@ -61,21 +61,14 @@ const i18n = getI18N({ currentLocale })
                     <li>{summ}</li>
                   ))}
                 </ul>
-                {/* 
                 {achievements && (
-                  <div class="my-2">
-                    <div class="flex items-center gap-3">
-                      <figure class="no-print">
-                        <Confetti />
-                      </figure>
-                      <div class="flex-1">
-                        <p class="text-sm"> {achievements}</p>
-                      </div>
-                    </div>
+                  <div class="my-2 no-print">
+                    <p class="text-sm" set:html={achievements} />
                   </div>
                 )}
+                {/* 
                 <div class="flex items-center gap-3">
-                  <figure class="no-print">
+                  <figure>
                     <Stack />
                   </figure>
                   <div class="flex-1">
