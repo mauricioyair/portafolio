@@ -2,7 +2,7 @@
   "seo": {
     "homepage": {
       "title": "Portafolio de Mauricio - Ingeniero en Software",
-      "description": "My portfolio en Español"
+      "description": "Mi portafolio en Español"
     },
     "cvpage": {
       "title": "Curriculum Vitae de Mauricio - Ingeniero en Software",
@@ -19,12 +19,12 @@
   },
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Python | Desarrollo Web",
+    "label": "Ingeniero de Software",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.dev",
-    "summary": "Ingeniero en Software con seis años de experiencia en desarrollo web. He desarrollado temas desde cero, con la arquitectura del core de WordPress, CPT, campos ACF y consultas WP_Query para mostrar contenido dinámico. También he realizado consultas a APIs REST con JavaScript y creado sitios responsive con CSS, y frameworks. Cuento con experiencia en mantenimiento de sitios en producción. Actualmente continúo fortaleciendo mi nivel de inglés.",
+    "summary": "Desarrollador de software con experiencia en desarrollo de aplicaciones web, soporte y mantenimiento de sistemas. Cuento con conocimientos de programación, plataformas y herramientas de desarrollo. Me adapto tanto al trabajo autónomo como a la colaboración en equipo.",
     "others": {
       "name": "Hola, soy Mauricio ✌🏻",
       "ocupation_1": "Ingeniero de",
@@ -57,16 +57,17 @@
     {
       "name": "Bloom Digitals",
       "position": "Desarrollador WordPress y WebFlow",
-      "badges": ["Remoto"],
+      "location": "Aguascalientes, Remoto",
       "url": "https://bloomdigitals.com",
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "Implementé sitios web responsivos para más de 20 proyectos con Oxygen Builder, Elementor y Webflow, a partir de diseños aprobados.",
-        "Desarrollé un localizador de distribuidores con filtros dinámicos y mapa interactivo usando JavaScript, JSON, HTML y CSS, integrado con Marketo.",
-        "Creé plantillas de correo en HTML con Stripo y atendí incidencias de sitios en producción junto con el líder técnico, dentro de un flujo de trabajo Kanban."
+        "Desarrollé y despliegue más de 15 sitios responsivos en WordPress a partir de diseños en Figma aprobados por el cliente.",
+        "Programé un localizador de distribuidores con mapa interactivo y filtros dinámicos (JavaScript, JSON, HTML, CSS) integrado en Marketo, que facilitó a usuarios a encontrar su distribuidor más cercano.",
+        "Construí plantillas de correo HTML responsivas en Stripo para campañas de marketing.",
+        "Resolví incidencias en sitios en producción junto al líder técnico, bajo un flujo Kanban."
       ],
-      "achievements": "Colaboré con el Team Leader en la implementación de mejoras técnicas y resolución de incidencias para distintos proyectos",
+      "achievements": "Brindé apoyo al equipo en la resolución de incidencias y atención de tickets pendientes, contribuyendo a reducir la carga operativa y mantener el cumplimiento de las fechas de entrega.",
       "highlights": ["HTML5", "CSS3", "JavaScript", "WordPress", "WebFlow"],
       "tools": [
         "Figma",
@@ -91,18 +92,18 @@
     {
       "name": "IW Innovation Workshop",
       "position": "Desarrollador WordPress",
-      "badges": ["Híbrido"],
+      "location": "Querétaro, Híbrido",
       "url": "https://iw.digital",
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "Capacité a administradores y creadores de contenido para operar sus sitios.",
-        "Personalicé plugins, CPT y campos ACF; administré entornos Multisite y sitios multilenguaje.",
-        "Configuré y personalicé tiendas en Shopify (Liquid) y desarrollé landing pages y plantillas de correo.",
-        "Gestioné código con Git y documenté desarrollos para facilitar su mantenimiento y transferencia.",
-        "Desarrollé temas de WordPress a medida y consultas dinámicas con la API de WordPress y WP_Query."
+        "Desarrollé temas de WordPress a medida utilizando PHP, WP_Query, tipos de contenido personalizados y campos ACF para clientes de sectores como cuidado personal, restaurantes, joyería, arte e inmobiliario, en colaboración con diseñadores y desarrolladores senior.",
+        "Administré entornos WordPress Multisite y sitios multilenguaje con polylang.",
+        "Gestioné versiones de código con Git y documenté los desarrollos realizados.",
+        "Apoye a equipo de Backend en la maquetación e implementación de interfaces Frontend para sistemas desarrollados con Python.",
+        "Configuré y personalicé tiendas de comercio electrónico en Shopify, adaptando su estructura y funcionalidades a las necesidades del cliente."
       ],
-      "achievements": "Contribuí en diversos proyectos mejorando la experiencia de usuario y resolviendo inconvenientes en desarrollos heredados. Además de documentar los desarrollos realizados.",
+      "achievements": "Logré que una tienda en Shopify registrara sus primeras ventas durante la primera semana.<sup><a href='https://www.youtube.com/watch?v=UJs8W45XlqI&t=180s' target='_blank' rel='nofollow noreferrer noopener'>1</a></sup> Además, capacité a gerentes de cuentas y clientes en la gestión de sus sitios web, logrando reducir las solicitudes de soporte.",
       "highlights": [
         "HTML5",
         "CSS3",
@@ -132,16 +133,17 @@
     },
     {
       "name": "Mercadology",
-      "position": "Prácticas Profesionales - Desarrollador Web",
-      "badges": ["Presencial"],
+      "position": "Desarrollador Junior - Práct. Prof",
+      "location": "Querétaro, Presencial",
       "url": "https://mercadology.mx",
       "startDate": "2019-03-02",
       "endDate": "2020-06-02",
       "summary": [
-        "Monitoreé tráfico y posicionamiento orgánico con Google Analytics y Search Console.",
-        "Optimicé el rendimiento, la seguridad y el SEO de sitios WordPress desarrollados con Elementor, WPBakery, Gutenberg y Divi."
+        "Desarrollé sitios en WordPress con Elementor, WPBakery ,Divi, Gutenberg.",
+        "Optimicé SEO técnico, rendimiento y seguridad, mejorando los scores de PageSpeed y el tráfico orgánico.",
+        "Analicé tráfico y posicionamiento orgánico con Google Analytics y Search Console y documenté reportes mensuales."
       ],
-      "achievements": "Trabajé en equipo para incrementar el posicionamiento orgánico y performance.",
+      "achievements": "Participé en la implementación de nuevas funcionalidades para un portal de noticias local con miles de visitas diarias, contribuyendo a mejorar la experiencia de usuario.",
       "highlights": ["WordPress"],
       "tools": ["Adobe XD", "Sublime Text", "Atom", "Xampp", "Slack", "Asana", "GA3", "GSC"]
     }
@@ -161,7 +163,7 @@
     {
       "institution": "Politécnica de Santa Rosa",
       "url": "https://upsrj.edu.mx",
-      "area": "Ingeniería en Software",
+      "area": "Ingeniería en Software - Graduado",
       "studyType": "Universidad",
       "startDate": "2016-01-10",
       "endDate": "2019-08-25",
@@ -203,48 +205,87 @@
   "hardskills": [
     {
       "name": "HTML5",
-      "level": "",
-      "keywords": []
+      "level": "Expert",
+      "show_front": true,
+      "tools": [],
+      "keywords": ["Front-End", "HyperText Markup Language"]
     },
     {
       "name": "CSS3",
-      "level": "",
-      "keywords": ["Tailwind CSS", "Bootstrap"]
+      "level": "Expert",
+      "show_front": true,
+      "tools": ["Tailwind CSS", "Bootstrap"],
+      "keywords": ["Front-End", "Cascading Style Sheets"]
     },
     {
       "name": "JavaScript",
-      "level": "",
-      "keywords": ["React", "jQuery"]
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["React", "jQuery", "Astro"],
+      "keywords": ["Front-End"]
     },
     {
       "name": "Figma",
-      "level": "",
+      "level": "Expert",
+      "show_front": true,
+      "tools": [],
       "keywords": ["UI", "UX"]
     },
     {
       "name": "WordPress",
-      "level": "",
-      "keywords": []
+      "level": "Expert",
+      "show_front": true,
+      "tools": ["WooCommerce"],
+      "keywords": ["Back-End", "CMS"]
     },
     {
       "name": "PHP",
-      "level": "",
-      "keywords": []
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["CodeIgniter"],
+      "keywords": ["Back-End", "Hypertext Preprocessor"]
     },
     {
       "name": "SQL",
-      "level": "",
-      "keywords": ["MySQL", "PostgreSQL"]
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["MySQL", "PostgreSQL"],
+      "keywords": ["Back-End", "Structured Query Language"]
     },
     {
       "name": "Git",
-      "level": "",
-      "keywords": ["GitHub"]
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["GitHub"],
+      "keywords": ["Deploy", "Distributed version control system"]
+    },
+    {
+      "name": "Shopify",
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Cloud-based E-commerce Platform"]
     },
     {
       "name": "Python",
-      "level": "",
-      "keywords": []
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Back-End", "Data Enginner", "IA", "Machine Learning"]
+    },
+    {
+      "name": "Java",
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Back-End"]
+    },
+    {
+      "name": "Android Studio",
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Mobile Development"]
     }
   ],
   "softskills": [
@@ -333,7 +374,7 @@
     }
   ],
   "about": {
-    "summary": "<p>Todo comenzó en la universidad. Fue allí donde escribí mi primer “Hola mundo” en Java utilizando Eclipse. Puede parecer una línea de código más, pero recuerdo perfectamente la emoción de ver cómo un programa creado por mí funcionaba. Ese pequeño momento despertó algo que, con el tiempo, se convertiría en una parte importante de mi vida profesional. Mientras avanzaba en la carrera, descubrí otro mundo que cambiaría mi forma de entender el desarrollo: Las bases de datos.</p><p>Aprendí a usar MySQL desde la consola, escribiendo consultas SQL y comprendiendo cómo la información podía almacenarse, relacionarse y recuperarse. Poco después llegaron PHP, HTML y CSS, y fue entonces cuando muchas piezas comenzaron a encajar. Por primera vez podía conectar una aplicación con una base de datos y convertirla en un sistema dinámico. Las interfaces comenzaron a darle vida a lo que estaba construyendo y descubrí algo que sigue siendo importante para mí hasta el día de hoy sigo disfrutando crear soluciones que no solo funcionen, sino que también tengan una buena experiencia para quien las utiliza. Fue así como el desarrollo web comenzó a convertirse en el camino que quería seguir explorando.<p>Durante mi formación también tuve la oportunidad de experimentar con diferentes áreas del desarrollo de software. Aprendi a usar Android Studio y Ionic para el desarrollo de aplicaciones móviles nativas y hibidras.</p><p>También tuve mis primeros acercamientos con Python y el análisis de datos utilizando Pandas. En ese momento fue principalmente una introducción, pero terminó despertando una curiosidad que con los años ha ido creciendo. Actualmente estoy profundizando en Python y en el desarrollo de soluciones relacionadas con Inteligencia Artificial, buscando entender cómo estas tecnologías pueden utilizarse para resolver problemas reales y optimizar procesos.</p><p>Otra experiencia que recuerdo especialmente fue trabajar con Arduino. Construir pequeños circuitos sobre un protoboard, controlar LEDs y observar cómo el software podía interactuar directamente con el hardware fue una forma completamente diferente de entender la programación. Me permitió descubrir otra faceta de esta profesión y apreciar aún más su versatilidad.</p><p>Finalmente, tuve mis primeros acercamientos a Linux. Aunque inicialmente se trataba de tareas sencillas y comandos básicos, aquella experiencia me permitió familiarizarme con un entorno que con el tiempo se convertiría en una herramienta fundamental dentro del desarrollo de software.</p><p>Al finalizar mis estudios tuve la oportunidad de comenzar mi carrera profesional en el desarrollo web con WordPress. Al principio trabajé principalmente con constructores visuales, pero con el tiempo fui evolucionando hacia la personalización de temas y plugins mediante código. También participé en tareas de optimización de sitios web en producción  y en su mantenimiento y soporte continuo.</p><p>Esta experiencia me permitió trabajar en proyectos para diferentes clientes y colaborar de cerca con desarrolladores senior, diseñadores y gerentes de proyecto. Más allá de los conocimientos técnicos, fue una etapa importante para desarrollar habilidades que considero fundamentales en cualquier proyecto de software: la comunicación, el trabajo en equipo, la capacidad de analizar problemas y la responsabilidad de mantener soluciones funcionando correctamente una vez que llegan a producción.</p><p>También he tenido la oportunidad de trabajar tanto de forma remota como presencial, adaptándome a diferentes dinámicas de trabajo y formas de colaboración. Actualmente continúo disfrutando especialmente del desarrollo web y estoy abierto a seguir participando en proyectos dentro de este ámbito. Al mismo tiempo, he comenzado a profundizar en Python e Inteligencia Artificial, especialmente en cómo estas tecnologías pueden utilizarse para automatizar procesos, mejorar implementaciones y crear soluciones más eficientes.</p><p>Mi objetivo es seguir creciendo sin dejar de lado la experiencia que he construido como desarrollador web, sino utilizarla como base para explorar nuevas tecnologías y encontrar nuevas formas de resolver problemas. Al final, eso es lo que más me ha gustado del desarrollo de software desde aquel primer “Hola mundo”: la posibilidad de aprender constantemente, transformar una idea en algo funcional y seguir descubriendo nuevas formas de construir.</p>"
+    "summary": "<p>Todo comenzó en la universidad. Fue allí donde escribí mi primer “Hola mundo” en Java utilizando Eclipse. Puede parecer una línea de código más, pero recuerdo perfectamente la emoción de ver cómo un programa creado por mí funcionaba. Ese pequeño momento despertó algo que, con el tiempo, se convertiría en una parte importante de mi vida profesional. Mientras avanzaba en la carrera, descubrí otro mundo que cambiaría mi forma de entender el desarrollo: Las bases de datos.</p><p>Aprendí a usar MySQL desde la consola, escribiendo consultas SQL y comprendiendo cómo la información podía almacenarse, relacionarse y recuperarse. Poco después llegaron PHP, HTML y CSS, y fue entonces cuando muchas piezas comenzaron a encajar. Por primera vez podía conectar una aplicación con una base de datos y convertirla en un sistema dinámico. Las interfaces comenzaron a darle vida a lo que estaba construyendo y descubrí algo que sigue siendo importante para mí hasta el día de hoy sigo disfrutando crear soluciones que no solo funcionen, sino que también tengan una buena experiencia para quien las utiliza. Fue así como el desarrollo web comenzó a convertirse en el camino que quería seguir explorando.<p>Durante mi formación también tuve la oportunidad de experimentar con diferentes áreas del desarrollo de software. Aprendí a usar Android Studio y Ionic para el desarrollo de aplicaciones móviles nativas y híbridas.</p><p>También tuve mis primeros acercamientos con Python y el análisis de datos utilizando Pandas. En ese momento fue principalmente una introducción, pero terminó despertando una curiosidad que con los años ha ido creciendo. Actualmente estoy profundizando en Python y en el desarrollo de soluciones relacionadas con Inteligencia Artificial, buscando entender cómo estas tecnologías pueden utilizarse para resolver problemas reales y optimizar procesos.</p><p>Otra experiencia que recuerdo especialmente fue trabajar con Arduino. Construir pequeños circuitos sobre un protoboard, controlar LEDs y observar cómo el software podía interactuar directamente con el hardware fue una forma completamente diferente de entender la programación. Me permitió descubrir otra faceta de esta profesión y apreciar aún más su versatilidad.</p><p>Finalmente, tuve mis primeros acercamientos a Linux. Aunque inicialmente se trataba de tareas sencillas y comandos básicos, aquella experiencia me permitió familiarizarme con un entorno que con el tiempo se convertiría en una herramienta fundamental dentro del desarrollo de software.</p><p>Al finalizar mis estudios tuve la oportunidad de comenzar mi carrera profesional en el desarrollo web con WordPress. Al principio trabajé principalmente con constructores visuales, pero con el tiempo fui evolucionando hacia la personalización de temas y plugins mediante código. También participé en tareas de optimización de sitios web en producción  y en su mantenimiento y soporte continuo.</p><p>Esta experiencia me permitió trabajar en proyectos para diferentes clientes y colaborar de cerca con desarrolladores senior, diseñadores y gerentes de proyecto. Más allá de los conocimientos técnicos, fue una etapa importante para desarrollar habilidades que considero fundamentales en cualquier proyecto de software: la comunicación, el trabajo en equipo, la capacidad de analizar problemas y la responsabilidad de mantener soluciones funcionando correctamente una vez que llegan a producción.</p><p>También he tenido la oportunidad de trabajar tanto de forma remota como presencial, adaptándome a diferentes dinámicas de trabajo y formas de colaboración. Actualmente continúo disfrutando especialmente del desarrollo web y estoy abierto a seguir participando en proyectos dentro de este ámbito. Al mismo tiempo, he comenzado a profundizar en Python e Inteligencia Artificial, especialmente en cómo estas tecnologías pueden utilizarse para automatizar procesos, mejorar implementaciones y crear soluciones más eficientes.</p><p>Mi objetivo es seguir creciendo sin dejar de lado la experiencia que he construido como desarrollador web, sino utilizarla como base para explorar nuevas tecnologías y encontrar nuevas formas de resolver problemas. Al final, eso es lo que más me ha gustado del desarrollo de software desde aquel primer “Hola mundo”: la posibilidad de aprender constantemente, transformar una idea en algo funcional y seguir descubriendo nuevas formas de construir.</p>"
   },
   "labels": {
     "label_description_projects": "Estos son algunos de los proyectos en los que he trabajado de freelance y proyectos personales.",

@@ -13,7 +13,17 @@ const i18n = getI18N({ currentLocale })
   <h3 class="mb-2 text-2xl font-bold">{i18n.labels.label_experience}</h3>
   <ul class="flex flex-col gap-4">
     {i18n.work.map(
-      ({ name, startDate, endDate, position, summary, highlights, url, badges, achievements }) => {
+      ({
+        name,
+        startDate,
+        endDate,
+        position,
+        summary,
+        highlights,
+        url,
+        location,
+        achievements,
+      }) => {
         const startFormatDate = new Date(startDate)
         const endFormatDate = new Date(endDate)
 
@@ -49,9 +59,7 @@ const i18n = getI18N({ currentLocale })
                 <div class="flex flex-wrap text-xs text-gray-500 gap-x-2">
                   <time class="text-right capitalize">{years}</time>
                   <span class="flex items-center text-[9px]">|</span>
-                  {badges.map((badge) => (
-                    <span class="workplace">{badge}</span>
-                  ))}
+                  <span class="workplace">{location}</span>
                 </div>
               </header>
 

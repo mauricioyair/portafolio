@@ -47,6 +47,11 @@ h6 {
   font-family: 'Onest Variable', system-ui, sans-serif;
 }
 
+sup,
+sub {
+  font-size: 50%;
+}
+
 @media (prefers-color-scheme: light) {
   body {
     background-color: var(--theme-light);

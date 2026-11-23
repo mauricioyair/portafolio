@@ -19,12 +19,12 @@
   },
   "basics": {
     "name": "Mauricio Yair Chávez Fuentes",
-    "label": "Python | Web Development",
+    "label": "Software Engineer",
     "image": "https://avatars.githubusercontent.com/u/35882034?v=4",
     "email": "yairchavez555@gmail.com",
     "phone": "+524424652866",
     "url": "https://mauricioyair.dev",
-    "summary": "Software Engineer with six years of experience in web development. I have developed themes from scratch using the WordPress core architecture, Custom Post Types (CPT), ACF fields, and WP_Query to display dynamic content. I have also made requests to REST APIs using JavaScript and created responsive sites using CSS and frameworks. I have experience maintaining live sites. I am currently continuing to improve my English skills.",
+    "summary": "Software developer with experience in web application development, system support, and maintenance. I have knowledge of programming, platforms, and development tools. I am comfortable working both independently and as part of a team.",
     "others": {
       "name": "Hi, I'm Mauricio ✌🏻",
       "ocupation_1": "Software",
@@ -57,16 +57,17 @@
     {
       "name": "Bloom Digitals",
       "position": "WordPress and Webflow Developer",
-      "badges": ["Home Office"],
+      "location": "Aguascalientes, Home Office",
       "url": "https://bloomdigitals.com",
       "startDate": "2024-07-26",
       "endDate": "2026-06-30",
       "summary": [
-        "I built responsive websites for more than 20 projects using Oxygen Builder, Elementor, and Webflow, based on approved designs.",
-        "I developed a dealer locator with dynamic filters and an interactive map using JavaScript, JSON, HTML, and CSS, integrated with Marketo.",
-        "I created HTML email templates using Stripo and resolved issues with live sites alongside the technical lead, as part of a Kanban workflow."
+        "I developed and deployed more than 15 responsive WordPress sites based on client-approved Figma designs.",
+        "I developed a dealer locator with an interactive map and dynamic filters (JavaScript, JSON, HTML, CSS) integrated into Marketo, which made it easier for users to find their nearest dealer.",
+        "I built responsive HTML email templates in Stripo for marketing campaigns.",
+        "I resolved issues on production sites alongside the technical lead, using a Kanban workflow."
       ],
-      "achievements": "I worked with the team leader to implement technical improvements and resolve issues for various projects",
+      "achievements": "I supported the team in resolving issues and addressing pending tickets, helping to reduce the operational workload and ensure that deadlines were met.",
       "highlights": ["HTML5", "CSS3", "JavaScript", "WordPress", "WebFlow"],
       "tools": [
         "Figma",
@@ -91,18 +92,18 @@
     {
       "name": "IW Innovation Workshop",
       "position": "WordPress Developer",
-      "badges": ["Hybrid"],
+      "location": "Querétaro, Hybrid",
       "url": "https://iw.digital",
       "startDate": "2020-09-28",
       "endDate": "2023-11-30",
       "summary": [
-        "I trained administrators and content creators to manage their sites.",
-        "I customized plugins, Custom Post Types (CPTs), and ACF fields; I managed Multisite environments and multilingual sites.",
-        "I set up and customized stores on Shopify (Liquid) and developed landing pages and email templates.",
-        "I managed code using Git and documented development work to facilitate maintenance and handoff.",
-        "I developed custom WordPress themes and dynamic queries using the WordPress API and WP_Query."
+        "I developed custom WordPress themes using PHP, WP_Query, custom post types, and ACF fields for clients in industries such as personal care, restaurants, jewelry, art, and real estate, in collaboration with senior designers and developers.",
+        "I have managed WordPress Multisite environments and multilingual sites using Polylang.",
+        "I managed code versions using Git and documented the development work that was done.",
+        "Support the backend team in designing and implementing frontend interfaces for systems developed in Python.",
+        "I set up and customized e-commerce stores on Shopify, tailoring their structure and features to the client's needs."
       ],
-      "achievements": "I contributed to various projects by improving the user experience and resolving issues in legacy systems. I also documented the work that was done.",
+      "achievements": "I helped a Shopify store make its first sales within the first week.<sup><a href='https://www.youtube.com/watch?v=UJs8W45XlqI&t=180s' target='_blank' rel='nofollow noreferrer noopener'>1</a></sup> In addition, it enables account managers and clients to manage their websites, thereby reducing the number of support requests.",
       "highlights": [
         "HTML5",
         "CSS3",
@@ -132,16 +133,17 @@
     },
     {
       "name": "Mercadology",
-      "position": "Professional Internship - Web Developer",
-      "badges": ["On-site"],
+      "position": "Junior Developer - Professional Intern",
+      "location": "Querétaro, On-site",
       "url": "https://mercadology.mx",
       "startDate": "2019-03-02",
       "endDate": "2020-06-02",
       "summary": [
-        "I tracked traffic and organic search rankings using Google Analytics and Search Console.",
-        "I optimized the performance, security, and SEO of WordPress sites built with Elementor, WPBakery, Gutenberg, and Divi."
+        "I've developed WordPress sites using Elementor, WPBakery, Divi, and Gutenberg.",
+        "I optimized technical SEO, performance, and security, improving PageSpeed scores and organic traffic.",
+        "I analyzed traffic and organic search rankings using Google Analytics and Search Console and compiled monthly reports."
       ],
-      "achievements": "I worked as a team to increase organic positioning and performance.",
+      "achievements": "I helped implement new features for a local news website that receives thousands of visits per day, contributing to an improved user experience.",
       "highlights": ["WordPress"],
       "tools": ["Adobe XD", "Sublime Text", "Atom", "Xampp", "Slack", "Asana", "GA3", "GSC"]
     }
@@ -161,7 +163,7 @@
     {
       "institution": "Politécnica de Santa Rosa",
       "url": "https://upsrj.edu.mx",
-      "area": "Software Engineering",
+      "area": "Software Engineering - Graduate",
       "studyType": "University",
       "startDate": "2016-01-10",
       "endDate": "2019-08-25",
@@ -203,48 +205,87 @@
   "hardskills": [
     {
       "name": "HTML5",
-      "level": "",
-      "keywords": []
+      "level": "Expert",
+      "show_front": true,
+      "tools": [],
+      "keywords": ["Front-End", "HyperText Markup Language"]
     },
     {
       "name": "CSS3",
-      "level": "",
-      "keywords": ["Tailwind CSS", "Bootstrap"]
+      "level": "Expert",
+      "show_front": true,
+      "tools": ["Tailwind CSS", "Bootstrap"],
+      "keywords": ["Front-End", "Cascading Style Sheets"]
     },
     {
       "name": "JavaScript",
-      "level": "",
-      "keywords": ["React", "jQuery"]
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["React", "jQuery", "Astro"],
+      "keywords": ["Front-End"]
     },
     {
       "name": "Figma",
-      "level": "",
+      "level": "Expert",
+      "show_front": true,
+      "tools": [],
       "keywords": ["UI", "UX"]
     },
     {
       "name": "WordPress",
-      "level": "",
-      "keywords": []
+      "level": "Expert",
+      "show_front": true,
+      "tools": ["WooCommerce"],
+      "keywords": ["Back-End", "CMS"]
     },
     {
       "name": "PHP",
-      "level": "",
-      "keywords": []
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["CodeIgniter"],
+      "keywords": ["Back-End", "Hypertext Preprocessor"]
     },
     {
       "name": "SQL",
-      "level": "",
-      "keywords": ["MySQL", "PostgreSQL"]
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["MySQL", "PostgreSQL"],
+      "keywords": ["Back-End", "Structured Query Language"]
     },
     {
       "name": "Git",
-      "level": "",
-      "keywords": ["GitHub"]
+      "level": "Middle",
+      "show_front": true,
+      "tools": ["GitHub"],
+      "keywords": ["Deploy", "Distributed version control system"]
+    },
+    {
+      "name": "Shopify",
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Cloud-based E-commerce Platform"]
     },
     {
       "name": "Python",
-      "level": "",
-      "keywords": []
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Back-End", "Data Enginner", "IA", "Machine Learning"]
+    },
+    {
+      "name": "Java",
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Back-End"]
+    },
+    {
+      "name": "Android Studio",
+      "level": "Basic",
+      "show_front": false,
+      "tools": [],
+      "keywords": ["Mobile Development"]
     }
   ],
   "softskills": [
