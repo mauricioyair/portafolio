@@ -384,12 +384,8 @@
     "label_language": "Languages",
     "label_soft_skills": "Soft Skills",
     "label_hard_skills": "Hard Skills",
-    "label_certificacion": "Certificates"
-  },
-  "links": {
-    "button_hero_copy_email": "Copy e-mail",
-    "button_hero_copied_email": "Email copied",
-    "button_link_cv": "Resume"
+    "label_certificacion": "Certificates",
+    "label_cv": "Resume"
   },
   "header": {
     "about": "About me",

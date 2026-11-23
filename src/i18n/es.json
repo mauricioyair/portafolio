@@ -384,12 +384,8 @@
     "label_language": "Idiomas",
     "label_soft_skills": "Habilidades blandas",
     "label_hard_skills": "Habilidades técnicas",
-    "label_certificacion": "Certificados"
-  },
-  "links": {
-    "button_hero_copy_email": "Copiar correo",
-    "button_hero_copied_email": "Copiado",
-    "button_link_cv": "Currículum"
+    "label_certificacion": "Certificados",
+    "label_cv": "Currículum"
   },
   "header": {
     "about": "Sobre mí",
