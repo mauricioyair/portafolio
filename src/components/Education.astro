@@ -11,7 +11,7 @@ const i18n = getI18N({ currentLocale })
 <section>
   <h3 class="mb-2 text-2xl font-bold">{i18n.labels.label_education}</h3>
   <ul class="flex flex-col gap-4">
-    {i18n.education.map(({ institution, startDate, endDate, area, url, highlights }) => {
+    {i18n.education.map(({ institution, startDate, endDate, area, url, highlights, location }) => {
       const startFormatDate = new Date(startDate)
       const endFormatDate = new Date(endDate)
 
@@ -44,8 +44,10 @@ const i18n = getI18N({ currentLocale })
                 )}
               </h4>
 
-              <div class="text-xs text-gray-500">
+              <div class="flex flex-wrap text-xs text-gray-500 gap-x-2">
                 <time class="text-right capitalize">{years}</time>
+                <span class="flex items-center text-[9px]">|</span>
+                <span class="workplace">{location}</span>
               </div>
             </header>
             {/* <footer>
